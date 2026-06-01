@@ -1,0 +1,45 @@
+"""
+Bot-generated chat response prefixes — never treat as user commands.
+"""
+
+from __future__ import annotations
+
+BOT_RESPONSE_PREFIXES: tuple[str, ...] = (
+    "added to queue:",
+    "added:",
+    "now playing:",
+    "queue empty",
+    "usage:",
+    "could not play:",
+    "could not find:",
+    "skipped:",
+    "cleared",
+    "queue (",
+    "queue is empty",
+    "song not found:",
+    "nothing playing",
+    "nothing queued",
+    "slow down",
+    "unknown command:",
+    "you don't have permission",
+    "you are blocked",
+    "bot is locked",
+    "bot locked",
+    "bot unlocked",
+    "available commands:",
+    "streaming:",
+    "status:",
+    "current volume:",
+    "live lyrics",
+    "lyrics not found",
+    "removed:",
+    "up next:",
+    "force-playing:",
+    "playback ",
+    "volume set",
+    "loop mode:",
+    "give it a moment",
+    "slow down — try",
+    "you can only skip",
+    "you can only remove",
+)
