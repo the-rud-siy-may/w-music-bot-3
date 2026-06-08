@@ -1016,3 +1016,33 @@ Public (everyone):
 2026-06-08 21:33:56 | INFO     | bot.runtime | Command: /volume from ..............
 2026-06-08 21:33:56 | INFO     | commands.audit | RECV user=.............. cmd=/volume invoked=/volume args=[] fp=ee9402d3
 2026-06-08 21:33:56 | INFO     | commands.audit | user=.............. cmd=/volume invoked=/volume args=[] status=SUCCESS ok=True ms=0 msg='Volume: 80%'
+2026-06-08 21:33:59 | INFO     | wakie.chat | Message typed
+2026-06-08 21:34:03 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:34:03 | INFO     | wakie.chat_actions | Reply sent to /volume
+2026-06-08 21:34:05 | INFO     | wakie.detector | Duplicate command ignored: /volume
+2026-06-08 21:35:57 | INFO     | wakie.detector | Command from ..............: /add yaanji
+2026-06-08 21:35:57 | INFO     | bot.runtime | Command: /add from ..............
+2026-06-08 21:35:57 | INFO     | commands.audit | RECV user=.............. cmd=/add invoked=/add args=['yaanji'] fp=da768c4f
+2026-06-08 21:35:57 | INFO     | player.local_library | No local song for query: 'yaanji'
+2026-06-08 21:35:57 | INFO     | player.youtube_service | Extracting stream: yaanji
+2026-06-08 21:35:59 | INFO     | player.stream_queue | User queued: Vikram Vedha Songs | Yaanji Video Song | R. Madhavan, Vijay Sethupathi | Sam C.S | Anirudh (#1)
+2026-06-08 21:35:59 | INFO     | commands.audit | user=.............. cmd=/add invoked=/add args=[yaanji] status=SUCCESS ok=True ms=2237 msg='Added: Vikram Vedha Songs | Yaanji Video Song | R. Madhavan, Vijay Sethupathi | '
+2026-06-08 21:36:02 | INFO     | wakie.chat | Message typed
+2026-06-08 21:36:06 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:36:06 | INFO     | wakie.chat_actions | Reply sent to /add yaanji
+2026-06-08 21:36:08 | INFO     | wakie.detector | Duplicate command ignored: /add yaanji
+2026-06-08 21:36:13 | INFO     | wakie.detector | Command from ..............: /skip
+2026-06-08 21:36:13 | INFO     | bot.runtime | Command: /skip from ..............
+2026-06-08 21:36:13 | INFO     | commands.audit | RECV user=.............. cmd=/skip invoked=/skip args=[] fp=28a06838
+2026-06-08 21:36:13 | INFO     | commands.audit | user=.............. cmd=/skip invoked=/skip args=[] status=SUCCESS ok=True ms=7 msg='Skipped: Emantave O Manasa Song   Ninne Istapaddanu Movie ¦¦ Tarun ¦¦ Anitha ¦¦ '
+2026-06-08 21:36:14 | INFO     | player.audio_player | Streaming: Vikram Vedha Songs | Yaanji Video Song | R. Madhavan, Vijay Sethupathi | Sam C.S | Anirudh
+2026-06-08 21:36:14 | INFO     | player.playback_engine | Now playing: Vikram Vedha Songs | Yaanji Video Song | R. Madhavan, Vijay Sethupathi | Sam C.S | Anirudh (attempt 1)
+2026-06-08 21:36:15 | INFO     | wakie.chat | Message typed
+2026-06-08 21:36:18 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:36:19 | INFO     | wakie.chat | Message sent
+2026-06-08 21:36:22 | WARNING  | wakie.chat_actions | Could not open reply menu for message '/skip'
+2026-06-08 21:36:22 | WARNING  | wakie.sender | Reply failed — falling back to plain send
+2026-06-08 21:36:23 | INFO     | wakie.chat | Message typed
+2026-06-08 21:36:26 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:36:27 | INFO     | wakie.chat | Message sent
+2026-06-08 21:37:30 | INFO     | wakie.message_filter | Ignored self user Anuraag: ⚡..............
