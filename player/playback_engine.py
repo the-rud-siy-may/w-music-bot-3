@@ -7,6 +7,7 @@ from __future__ import annotations
 import asyncio
 from typing import TYPE_CHECKING, Callable, Awaitable
 
+from utils.helpers import truncate
 from utils.logger import get_logger
 
 if TYPE_CHECKING:
@@ -84,7 +85,17 @@ class PlaybackEngine:
         if not self._player.is_playing() and not self._player.is_buffering():
             await self._play_next_available()
 
+    def _was_completely_silent(self) -> bool:
+        """True only when nothing is playing and no track was active (cold start)."""
+        return (
+            self._queue.current is None
+            and self._player.current_track is None
+            and not self._player.is_playing()
+            and not self._player.is_buffering()
+        )
+
     async def _play_next_available(self) -> None:
+        notify_loading = self._was_completely_silent()
         nxt = await self._queue.pop_next()
 
         if nxt is None:
@@ -102,13 +113,15 @@ class PlaybackEngine:
         if nxt.source == "user":
             self._notified_autoplay = False
 
-        await self._play_with_retry(nxt)
+        await self._play_with_retry(nxt, notify_loading=notify_loading)
 
-    async def _play_with_retry(self, entry: QueueEntry) -> None:
+    async def _play_with_retry(self, entry: QueueEntry, *, notify_loading: bool = False) -> None:
         for attempt in range(1, self._max_retries + 1):
             try:
-                await self._player.play(entry)
                 await self._queue.set_current(entry)
+                if attempt == 1 and notify_loading:
+                    await self._notify(f"⏳ Loading: {truncate(entry.title)}...")
+                await self._player.play(entry)
                 logger.info("Now playing: %s (attempt %d)", entry.title, attempt)
                 await self._notify(f"Now playing: {entry.title}")
                 return

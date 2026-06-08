@@ -70,7 +70,13 @@ class MessageDetector:
                 continue
             if self._filter.is_self_user(msg.username):
                 continue
+            if self._filter.is_bot_generated_text(msg.message):
+                continue
             if self._filter.is_bot_generated_text(cmd_line):
+                continue
+            if self._filter.matches_outbound(msg.message):
+                continue
+            if self._filter.is_reply_preview(msg.message, msg.username):
                 continue
 
             dedup_key = normalize_command_text(cmd_line)

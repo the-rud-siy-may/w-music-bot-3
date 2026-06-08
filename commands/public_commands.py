@@ -62,8 +62,7 @@ class PublicCommands(BaseCommandModule):
                 source="user",
             )
             await self._queue.add_user(entry)
-            pos = self._queue.position_of(entry.id)
-            return CommandResult.ok(f"Added: {truncate(entry.title)} (#{pos})")
+            return CommandResult.ok(self._add_reply(entry))
 
         try:
             info = await self._youtube.extract_stream(query)
@@ -77,14 +76,28 @@ class PublicCommands(BaseCommandModule):
 
         entry = QueueEntry.from_stream_info(info, requested_by=cmd.username, source="user")
         await self._queue.add_user(entry)
+        return CommandResult.ok(self._add_reply(entry))
+
+    def _add_reply(self, entry: QueueEntry) -> str:
+        """Tell the user where the song landed; note when it will load soon."""
+        title = truncate(entry.title)
         pos = self._queue.position_of(entry.id)
-        return CommandResult.ok(f"Added: {truncate(entry.title)} (#{pos})")
+        busy = (
+            self._queue.current is not None
+            or self._player.is_playing()
+            or self._player.is_buffering()
+        )
+        if pos == 1 and not busy:
+            return f"Added: {title} — loading soon..."
+        if pos == 1:
+            return f"Added: {title} (#1 — plays next)"
+        return f"Added: {title} (#{pos})"
 
     async def cmd_q(self, cmd: ParsedCommand) -> CommandResult:
-        listing = self._queue.format_listing()
-        if not listing:
+        display = self._queue.format_queue_display()
+        if not display:
             return CommandResult.ok("Queue is empty.")
-        return CommandResult.ok(f"Queue ({self._queue.length}):\n{listing}")
+        return CommandResult.ok(display)
 
     async def cmd_np(self, cmd: ParsedCommand) -> CommandResult:
         current = self._queue.current or self._player.current_track
@@ -114,17 +127,12 @@ class PublicCommands(BaseCommandModule):
         return CommandResult.ok(f"Removed: {truncate(removed.title)}")
 
     async def cmd_skip(self, cmd: ParsedCommand) -> CommandResult:
-        ok, reason = self._queue.can_skip_current(
-            cmd.username,
-            is_moderator=self._is_mod(cmd.username),
-        )
-        if not ok:
-            return CommandResult.fail(reason)
-        skipped = await self._queue.consume_current()
+        playing = self._queue.current or self._player.current_track
+        if playing is None:
+            return CommandResult.fail("Nothing playing to skip.")
+        skipped = await self._queue.consume_current() or playing
         await self._player.stop()
-        if skipped:
-            return CommandResult.ok(f"Skipped: {truncate(skipped.title)}")
-        return CommandResult.ok("Nothing to skip.")
+        return CommandResult.ok(f"Skipped: {truncate(skipped.title)}")
 
     async def cmd_clear(self, cmd: ParsedCommand) -> CommandResult:
         mod = self._is_mod(cmd.username)
@@ -136,7 +144,7 @@ class PublicCommands(BaseCommandModule):
         return CommandResult.ok(f"Volume: {self._volume.current}%")
 
     async def cmd_status(self, cmd: ParsedCommand) -> CommandResult:
-        current = self._queue.current
+        current = self._queue.current or self._player.current_track
         title = truncate(current.title) if current else "none"
         flags = []
         if self._config.muted:
@@ -144,8 +152,9 @@ class PublicCommands(BaseCommandModule):
         if self._config.locked:
             flags.append("locked")
         extra = f" ({', '.join(flags)})" if flags else ""
+        waiting = self._queue.length
         return CommandResult.ok(
-            f"{self._player.state_label} | {title} | queue {self._queue.length}{extra}",
+            f"{self._player.state_label} | now: {title} | waiting: {waiting}{extra}",
         )
 
     async def cmd_greet(self, cmd: ParsedCommand) -> CommandResult:

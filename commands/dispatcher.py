@@ -29,6 +29,7 @@ if TYPE_CHECKING:
     from player.stream_queue import StreamQueueManager
     from player.volume_manager import VolumeManager
     from player.youtube_service import YouTubeService
+    from wakie.reader import ChatMessage
     from wakie.sender import MessageSender
 
 logger = get_logger(__name__)
@@ -82,10 +83,13 @@ class CommandDispatcher:
     async def dispatch(self, cmd: ParsedCommand | ParseError) -> CommandResult:
         if isinstance(cmd, ParseError):
             result = CommandResult.fail(cmd.reason, status=DispatchStatus.INVALID)
-            await self._respond(result)
+            await self._respond(result, cmd.source_message)
             return result
 
         start = self._audit.log_attempt(cmd)
+        if cmd.source_message is not None:
+            self._sender.note_incoming_command(cmd.source_message)
+
         spec = cmd.spec
 
         if spec is None:
@@ -97,7 +101,7 @@ class CommandDispatcher:
             result = CommandResult.fail(msg, status=DispatchStatus.UNKNOWN)
             self._record_unknown(cmd)
             self._audit.log_result(cmd, result, start)
-            await self._respond(result)
+            await self._respond(result, cmd.source_message)
             return result
 
         allowed, remaining = self._cooldowns.check(cmd.username, spec)
@@ -106,20 +110,20 @@ class CommandDispatcher:
                 f"Slow down — try /{cmd.name} again in {remaining:.0f}s.",
                 status=DispatchStatus.COOLDOWN,
             )
-            await self._respond(result)
+            await self._respond(result, cmd.source_message)
             return result
 
         perm_ok, reason = self._permissions.can_execute(cmd.username, cmd.name)
         if not perm_ok:
             result = CommandResult.fail(reason, status=DispatchStatus.DENIED)
             self._audit.log_denied(cmd, reason, start)
-            await self._respond(result)
+            await self._respond(result, cmd.source_message)
             return result
 
         handler = self._handlers.get(cmd.name)
         if handler is None:
             result = CommandResult.fail(f"/{cmd.name} has no handler.", status=DispatchStatus.ERROR)
-            await self._respond(result)
+            await self._respond(result, cmd.source_message)
             return result
 
         try:
@@ -132,7 +136,7 @@ class CommandDispatcher:
 
         self._cooldowns.record(cmd.username, cmd.name)
         self._audit.log_result(cmd, result, start)
-        await self._respond(result)
+        await self._respond(result, cmd.source_message)
         return result
 
     def _should_suppress_unknown(self, cmd: ParsedCommand) -> bool:
@@ -146,6 +150,10 @@ class CommandDispatcher:
         key = (normalize_username(cmd.username), (cmd.invoked_as or cmd.name).lower())
         self._unknown_last[key] = time.monotonic()
 
-    async def _respond(self, result: CommandResult) -> None:
+    async def _respond(
+        self,
+        result: CommandResult,
+        source_message: ChatMessage | None = None,
+    ) -> None:
         if result.message and not result.silent and not self._config.muted:
-            await self._sender.send(result.message)
+            await self._sender.send(result.message, reply_to=source_message)

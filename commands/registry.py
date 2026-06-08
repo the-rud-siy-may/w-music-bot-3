@@ -32,11 +32,28 @@ class CommandRegistry:
         return [s for s in self._specs.values() if TIER_ORDER[s.tier] <= TIER_ORDER[max_tier]]
 
     def help_text(self, max_tier: CommandTier) -> str:
+        tier_sections: list[tuple[CommandTier, str]] = [
+            (CommandTier.PUBLIC, "Public (everyone)"),
+            (CommandTier.DELEGATED, "Admin (mods)"),
+            (CommandTier.OWNER, "Owner"),
+        ]
         lines = ["Music bot — commands", ""]
-        for spec in sorted(self.specs_for_tier(max_tier), key=lambda s: (TIER_ORDER[s.tier], s.name)):
-            lines.append(f"{spec.usage} — {spec.description}")
-        lines.append("")
-        lines.append("/add <song or YouTube URL>")
+        first = True
+        for tier, heading in tier_sections:
+            if TIER_ORDER[tier] > TIER_ORDER[max_tier]:
+                continue
+            specs = sorted(
+                (s for s in self._specs.values() if s.tier == tier),
+                key=lambda s: s.name,
+            )
+            if not specs:
+                continue
+            if not first:
+                lines.append("")
+            lines.append(f"{heading}:")
+            for spec in specs:
+                lines.append(f"  {spec.usage} — {spec.description}")
+            first = False
         return "\n".join(lines)
 
     def unknown_command_message(self, invoked_name: str) -> str:

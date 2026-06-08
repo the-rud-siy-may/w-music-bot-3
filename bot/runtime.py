@@ -119,6 +119,7 @@ class WakieBot:
                         if parsed is None:
                             continue
                         if isinstance(parsed, ParseError):
+                            parsed.source_message = msg
                             await self._dispatcher.dispatch(parsed)
                             continue
                         parsed.source_message = msg

@@ -166,7 +166,7 @@ class AudioPlayer:
         if self._player:
             self._player.stop()
         self._state = PlayerState.STOPPED
-        self._current = None
+        # Keep _current so skip/queue advance is not treated as a cold start.
 
     async def skip(self) -> QueueEntry | None:
         skipped = self._current

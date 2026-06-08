@@ -42,6 +42,7 @@ class ParsedCommand:
 class ParseError:
     reason: str
     raw: str = ""
+    source_message: object | None = None
 
 
 class CommandParser:

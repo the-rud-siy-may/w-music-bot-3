@@ -28,6 +28,7 @@ class StreamQueueManager:
         self._user: list[QueueEntry] = []
         self._autoplay: list[QueueEntry] = []
         self._current_id: str | None = None
+        self._current_entry: QueueEntry | None = None
         self._autoplay_mgr: AutoplayManager | None = None
 
     def bind_autoplay(self, manager: AutoplayManager) -> None:
@@ -45,9 +46,8 @@ class StreamQueueManager:
 
     @property
     def current(self) -> QueueEntry | None:
-        if self._current_id is None:
-            return None
-        return self._get_by_id(self._current_id)
+        """Track currently playing (may already be popped from the waiting queue)."""
+        return self._current_entry
 
     def position_of(self, entry_id: str) -> int:
         for idx, item in enumerate(self._all_items(), start=1):
@@ -145,13 +145,13 @@ class StreamQueueManager:
                 self._autoplay.remove(target)
             if target.id == self._current_id:
                 self._current_id = None
+                self._current_entry = None
         return target, ""
 
     def can_skip_current(self, username: str, *, is_moderator: bool = False) -> tuple[bool, str]:
-        current = self.current
-        if current is None:
+        if self._current_entry is None:
             return False, "Nothing playing to skip."
-        return self._can_modify_entry(current, username, is_moderator)
+        return True, ""
 
     def _can_modify_entry(
         self,
@@ -163,10 +163,16 @@ class StreamQueueManager:
             return True, ""
         if entry.source == "autoplay":
             return False, "You can only skip or remove songs you added."
-        owner = normalize_username(entry.requested_by or "")
-        user = normalize_username(username)
-        if not owner or owner != user:
-            return False, "You can only skip or remove songs you added."
+        from utils.helpers import display_names_match
+
+        owner = entry.requested_by or ""
+        if not owner:
+            return False, "You can only remove songs you added."
+        if display_names_match(owner, username):
+            return True, ""
+        if normalize_username(owner) == normalize_username(username):
+            return True, ""
+        return False, "You can only remove songs you added."
         return True, ""
 
     async def clear_for_user(self, username: str, *, is_moderator: bool = False) -> int:
@@ -178,13 +184,14 @@ class StreamQueueManager:
             else:
                 user_norm = normalize_username(username)
                 before = len(self._user)
+                from utils.helpers import display_names_match
+
                 self._user = [
                     e for e in self._user
-                    if normalize_username(e.requested_by or "") != user_norm
+                    if not display_names_match(e.requested_by or "", username)
+                    and normalize_username(e.requested_by or "") != user_norm
                 ]
                 count = before - len(self._user)
-            if self._current_id and self._get_by_id(self._current_id) is None:
-                self._current_id = None
         return count
 
     async def move(self, from_pos: int, to_pos: int) -> bool:
@@ -203,8 +210,6 @@ class StreamQueueManager:
         async with self._lock:
             count = len(self._user)
             self._user.clear()
-            if self._current_id and self._get_by_id(self._current_id) is None:
-                self._current_id = None
         return count
 
     async def clear(self) -> int:
@@ -213,6 +218,7 @@ class StreamQueueManager:
             self._user.clear()
             self._autoplay.clear()
             self._current_id = None
+            self._current_entry = None
         return count
 
     async def toggle_loop(self) -> bool:
@@ -221,17 +227,19 @@ class StreamQueueManager:
     async def set_current(self, entry: QueueEntry | None) -> None:
         async with self._lock:
             self._current_id = entry.id if entry else None
+            self._current_entry = entry
 
     async def consume_current(self) -> QueueEntry | None:
         async with self._lock:
-            if self._current_id is None:
+            current = self._current_entry
+            if current is None:
                 return None
-            current = self._get_by_id(self._current_id)
             if current in self._user:
                 self._user.remove(current)
             elif current in self._autoplay:
                 self._autoplay.remove(current)
             self._current_id = None
+            self._current_entry = None
             return current
 
     async def pop_next(self) -> QueueEntry | None:
@@ -242,6 +250,7 @@ class StreamQueueManager:
                 nxt = self._pop_from_list(self._autoplay)
             if nxt is not None:
                 self._current_id = nxt.id
+                self._current_entry = nxt
             return nxt
 
     def _pop_from_list(self, items: list[QueueEntry]) -> QueueEntry | None:
@@ -265,11 +274,24 @@ class StreamQueueManager:
             return ""
         lines: list[str] = []
         for idx, item in enumerate(items[:max_items], start=1):
-            marker = " ▶" if item.id == self._current_id else ""
             tag = " [autoplay]" if item.source == "autoplay" else ""
-            lines.append(f"{idx}. {truncate(item.title, 55)}{tag}{marker}")
+            lines.append(f"{idx}. {truncate(item.title, 55)}{tag}")
         if len(items) > max_items:
             lines.append(f"… and {len(items) - max_items} more")
+        return "\n".join(lines)
+
+    def format_queue_display(self, max_items: int = 15) -> str:
+        """Now playing + numbered waiting queue (matches /remove positions)."""
+        lines: list[str] = []
+        if self._current_entry is not None:
+            tag = " [autoplay]" if self._current_entry.source == "autoplay" else ""
+            lines.append(f"▶ Now: {truncate(self._current_entry.title, 55)}{tag}")
+        listing = self.format_listing(max_items)
+        if listing:
+            if lines:
+                lines.append("")
+            lines.append(f"Up next ({self.length}):")
+            lines.append(listing)
         return "\n".join(lines)
 
     async def ensure_autoplay_track(self) -> QueueEntry | None:
