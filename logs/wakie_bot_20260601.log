@@ -3845,3 +3845,82 @@ Now playing: Bommarillu Video Son
 2026-06-01 22:12:04 | INFO     | wakie.reader | MessageReader disconnected
 2026-06-01 22:12:04 | INFO     | wakie.device_session | Device session closed
 2026-06-01 22:12:04 | INFO     | bot.runtime | Bot stopped
+2026-06-01 22:15:54 | INFO     | wakie.message_filter | Bot username filter: Anuraag
+2026-06-01 22:15:54 | INFO     | bot.runtime | === Wakie Music Bot starting ===
+2026-06-01 22:15:54 | INFO     | player.autoplay_manager | Autoplay playlist loaded: 2 track(s)
+2026-06-01 22:15:54 | INFO     | wakie.device_session | Connecting uiautomator2 → emulator-5554
+2026-06-01 22:15:55 | INFO     | wakie.device_session | Device ready: 900x1600 serial=emulator-5554
+2026-06-01 22:15:55 | INFO     | wakie.reader | MessageReader using shared device session
+2026-06-01 22:15:55 | INFO     | player.audio_player | VLC initialized (streaming enabled)
+2026-06-01 22:15:55 | INFO     | bot.runtime | Poll loop started (interval=1.5s)
+2026-06-01 22:15:55 | INFO     | player.playback_engine | Playback engine started
+2026-06-01 22:15:55 | INFO     | player.youtube_service | Extracting stream: https://www.youtube.com/playlist?list=PL5HDCGtq1uZtGtAP1eTx34IATGVfHMelL
+2026-06-01 22:15:55 | INFO     | wakie.detector | Command from ✨️Siya..: /q
+2026-06-01 22:15:55 | INFO     | wakie.detector | Command from ✨️Siya..: /siya
+2026-06-01 22:15:55 | INFO     | wakie.detector | Duplicate command ignored: /siya
+2026-06-01 22:15:55 | INFO     | bot.runtime | Command: /q from ✨️Siya..
+2026-06-01 22:15:55 | INFO     | commands.audit | RECV user=✨️Siya.. cmd=/q invoked=/q args=[] fp=2dec49b8
+2026-06-01 22:15:55 | INFO     | commands.audit | user=✨️Siya.. cmd=/q invoked=/q args=[] status=SUCCESS ok=True ms=0 msg='Queue is empty.'
+2026-06-01 22:15:56 | INFO     | wakie.chat | Message typed
+2026-06-01 22:15:59 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-01 22:16:00 | INFO     | wakie.chat | Message sent
+2026-06-01 22:16:00 | INFO     | bot.runtime | Command: /siya from ✨️Siya..
+2026-06-01 22:16:00 | INFO     | commands.audit | RECV user=✨️Siya.. cmd=/siya invoked=/siya args=[] fp=94599ab1
+2026-06-01 22:16:00 | WARNING  | commands.audit | user=✨️Siya.. cmd=/siya invoked=/siya args=[] status=UNKNOWN ok=False ms=0 msg='Unknown command: /siya. Try /help'
+2026-06-01 22:16:00 | INFO     | wakie.chat | Message typed
+2026-06-01 22:16:03 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-01 22:16:04 | INFO     | wakie.chat | Message sent
+2026-06-01 22:17:02 | INFO     | wakie.detector | Command from unknown: /siya
+2026-06-01 22:17:02 | INFO     | wakie.detector | Command from ✨️Siya..: /add bommanu geesthe
+2026-06-01 22:17:02 | INFO     | bot.runtime | Command: /siya from unknown
+2026-06-01 22:17:02 | INFO     | commands.audit | RECV user=unknown cmd=/siya invoked=/siya args=[] fp=610b8b80
+2026-06-01 22:17:02 | WARNING  | commands.audit | user=unknown cmd=/siya invoked=/siya args=[] status=UNKNOWN ok=False ms=0 msg='Unknown command: /siya. Try /help'
+2026-06-01 22:17:02 | INFO     | wakie.chat | Message typed
+2026-06-01 22:17:05 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-01 22:17:06 | INFO     | wakie.chat | Message sent
+2026-06-01 22:17:06 | INFO     | bot.runtime | Command: /add from ✨️Siya..
+2026-06-01 22:17:06 | INFO     | commands.audit | RECV user=✨️Siya.. cmd=/add invoked=/add args=['bommanu', 'geesthe'] fp=e20dab3b
+2026-06-01 22:17:06 | INFO     | player.local_library | No local song for query: 'bommanu geesthe'
+2026-06-01 22:17:06 | INFO     | player.youtube_service | Extracting stream: bommanu geesthe
+2026-06-01 22:17:08 | INFO     | player.autoplay_manager | Autoplay paused — user queue active
+2026-06-01 22:17:08 | INFO     | player.stream_queue | User queued: Bommarillu Video Song | Bommani Geste ni la Vundi Song HD | Siddharth Genelia (#1)
+2026-06-01 22:17:08 | INFO     | commands.audit | user=✨️Siya.. cmd=/add invoked=/add args=[bommanu geesthe] status=SUCCESS ok=True ms=1772 msg='Added: Bommarillu Video Song | Bommani Geste ni la Vundi Song HD | Siddharth Gen'
+2026-06-01 22:17:08 | INFO     | wakie.chat | Message typed
+2026-06-01 22:17:11 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-01 22:17:12 | INFO     | wakie.chat | Message sent
+2026-06-01 22:17:55 | ERROR    | player.autoplay_manager | Autoplay extract failed for https://www.youtube.com/playlist?list=PL5HDCGtq1uZtGtAP1eTx34IATGVfHMelL: 
+2026-06-01 22:17:55 | INFO     | player.audio_player | Streaming: Bommarillu Video Song | Bommani Geste ni la Vundi Song HD | Siddharth Genelia
+2026-06-01 22:17:55 | INFO     | player.playback_engine | Now playing: Bommarillu Video Song | Bommani Geste ni la Vundi Song HD | Siddharth Genelia (attempt 1)
+2026-06-01 22:17:56 | INFO     | wakie.chat | Message typed
+2026-06-01 22:17:56 | INFO     | wakie.detector | Command from Unknown command: /siya. Try /help
+2026-06-01 22:17:56 | INFO     | wakie.detector | Command from ✨️Siya..: /np
+2026-06-01 22:17:56 | INFO     | bot.runtime | Command: /siya from Unknown command
+2026-06-01 22:17:56 | INFO     | commands.audit | RECV user=Unknown command cmd=/siya invoked=/siya args=['Try', '/help'] fp=004dbe2a
+2026-06-01 22:17:56 | WARNING  | commands.audit | user=Unknown command cmd=/siya invoked=/siya args=[Try /help] status=UNKNOWN ok=False ms=0 msg='Unknown command: /siya. Try /help'
+2026-06-01 22:17:57 | INFO     | wakie.chat | Message typed
+2026-06-01 22:18:05 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-01 22:18:05 | INFO     | wakie.chat | Message sent
+2026-06-01 22:18:06 | INFO     | wakie.chat | Retrying send (2/3)…
+2026-06-01 22:18:08 | INFO     | wakie.chat | Message typed
+2026-06-01 22:18:11 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-01 22:18:11 | INFO     | wakie.chat | Message sent
+2026-06-01 22:18:11 | INFO     | bot.runtime | Command: /np from ✨️Siya..
+2026-06-01 22:18:11 | INFO     | commands.audit | RECV user=✨️Siya.. cmd=/np invoked=/np args=[] fp=8f5a4c95
+2026-06-01 22:18:11 | INFO     | commands.audit | user=✨️Siya.. cmd=/np invoked=/np args=[] status=SUCCESS ok=True ms=0 msg='Now playing: Bommarillu Video Song | Bommani Geste ni la Vundi Song HD | Siddhar'
+2026-06-01 22:18:12 | INFO     | wakie.chat | Message typed
+2026-06-01 22:18:15 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-01 22:18:16 | INFO     | wakie.chat | Message sent
+2026-06-01 22:18:40 | INFO     | wakie.detector | Command from ✨️Siya..: /help
+2026-06-01 22:18:40 | INFO     | bot.runtime | Command: /help from ✨️Siya..
+2026-06-01 22:18:40 | INFO     | commands.audit | RECV user=✨️Siya.. cmd=/help invoked=/help args=[] fp=3ed86ca7
+2026-06-01 22:18:40 | INFO     | commands.audit | user=✨️Siya.. cmd=/help invoked=/help args=[] status=SUCCESS ok=True ms=0 msg='Music bot — commands\n\n/add <song|url> — Add song to queue.\n/clear — Clear queue '
+2026-06-01 22:18:41 | INFO     | wakie.chat | Message typed
+2026-06-01 22:18:44 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-01 22:18:45 | INFO     | wakie.chat | Message sent
+2026-06-01 22:19:02 | INFO     | wakie.detector | Command from unknown: /help
+2026-06-01 22:19:02 | INFO     | bot.runtime | Command: /help from unknown
+2026-06-01 22:19:02 | INFO     | commands.audit | RECV user=unknown cmd=/help invoked=/help args=[] fp=2565df7e
+2026-06-01 22:19:02 | INFO     | commands.audit | user=unknown cmd=/help invoked=/help args=[] status=SUCCESS ok=True ms=0 msg='Music bot — commands\n\n/add <song|url> — Add song to queue.\n/clear — Clear queue '
+2026-06-01 22:19:02 | INFO     | wakie.chat | Message typed
+2026-06-01 22:19:06 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-01 22:19:06 | INFO     | wakie.chat | Message sent

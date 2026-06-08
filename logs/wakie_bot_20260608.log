@@ -1,0 +1,1018 @@
+2026-06-08 19:43:09 | INFO     | wakie.message_filter | Bot username filter: Anuraag
+2026-06-08 19:43:09 | INFO     | bot.runtime | === Wakie Music Bot starting ===
+2026-06-08 19:43:09 | INFO     | player.autoplay_manager | Autoplay playlist loaded: 2 track(s)
+2026-06-08 19:43:09 | INFO     | wakie.device_session | Connecting uiautomator2 → emulator-5554
+2026-06-08 19:43:11 | INFO     | wakie.device_session | Device ready: 900x1600 serial=emulator-5554
+2026-06-08 19:43:11 | INFO     | wakie.reader | MessageReader using shared device session
+2026-06-08 19:43:18 | INFO     | player.audio_player | VLC initialized (streaming enabled)
+2026-06-08 19:43:18 | INFO     | bot.runtime | Poll loop started (interval=1.5s)
+2026-06-08 19:43:18 | INFO     | player.playback_engine | Playback engine started
+2026-06-08 19:43:18 | INFO     | player.youtube_service | Extracting stream: https://www.youtube.com/playlist?list=PL5HDCGtq1uZtGtAP1eTx34IATGVfHMelL
+2026-06-08 19:44:16 | INFO     | wakie.detector | Command from ✨️Siya..: /help
+2026-06-08 19:44:16 | INFO     | bot.runtime | Command: /help from ✨️Siya..
+2026-06-08 19:44:16 | INFO     | commands.audit | RECV user=✨️Siya.. cmd=/help invoked=/help args=[] fp=41bf1a74
+2026-06-08 19:44:16 | INFO     | commands.audit | user=✨️Siya.. cmd=/help invoked=/help args=[] status=SUCCESS ok=True ms=0 msg='Music bot — commands\n\n/add <song|url> — Add song to queue.\n/clear — Clear queue '
+2026-06-08 19:44:17 | INFO     | wakie.chat | Message typed
+2026-06-08 19:44:20 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 19:44:21 | INFO     | wakie.chat | Message sent
+2026-06-08 19:44:34 | INFO     | wakie.detector | Command from ⚔️ VɪVΣK..: /add violin song
+2026-06-08 19:44:34 | INFO     | bot.runtime | Command: /add from ⚔️ VɪVΣK..
+2026-06-08 19:44:34 | INFO     | commands.audit | RECV user=⚔️ VɪVΣK.. cmd=/add invoked=/add args=['violin', 'song'] fp=791f6d11
+2026-06-08 19:44:34 | INFO     | player.local_library | No local song for query: 'violin song'
+2026-06-08 19:44:34 | INFO     | player.youtube_service | Extracting stream: violin song
+2026-06-08 19:44:36 | INFO     | player.autoplay_manager | Autoplay paused — user queue active
+2026-06-08 19:44:36 | INFO     | player.stream_queue | User queued: Violin Song Full Video - Iddarammayilatho | Allu Arjun, Amala Paul | Devi Sri Prasad (#1)
+2026-06-08 19:44:36 | INFO     | commands.audit | user=⚔️ VɪVΣK.. cmd=/add invoked=/add args=[violin song] status=SUCCESS ok=True ms=2466 msg='Added: Violin Song Full Video - Iddarammayilatho | Allu Arjun, Amala Paul | Devi'
+2026-06-08 19:44:37 | INFO     | wakie.chat | Message typed
+2026-06-08 19:44:41 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 19:44:41 | INFO     | wakie.chat | Message sent
+2026-06-08 19:44:43 | INFO     | wakie.detector | Command from ✨️Siya..: /add o cheliya
+2026-06-08 19:44:43 | INFO     | bot.runtime | Command: /add from ✨️Siya..
+2026-06-08 19:44:43 | INFO     | commands.audit | RECV user=✨️Siya.. cmd=/add invoked=/add args=['o', 'cheliya'] fp=ec9a0285
+2026-06-08 19:44:43 | INFO     | player.local_library | No local song for query: 'o cheliya'
+2026-06-08 19:44:43 | INFO     | player.youtube_service | Extracting stream: o cheliya
+2026-06-08 19:44:46 | INFO     | player.stream_queue | User queued: O Cheliya Lyrical || Premikudu Movie Songs || Prabhu Deva, Nagma || A R Rahman, Shankar (#2)
+2026-06-08 19:44:46 | INFO     | commands.audit | user=✨️Siya.. cmd=/add invoked=/add args=[o cheliya] status=SUCCESS ok=True ms=2699 msg='Added: O Cheliya Lyrical || Premikudu Movie Songs || Prabhu Deva, Nagma || A R R'
+2026-06-08 19:44:46 | INFO     | wakie.chat | Message typed
+2026-06-08 19:44:50 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 19:44:51 | INFO     | wakie.chat | Message sent
+2026-06-08 19:44:52 | INFO     | wakie.detector | Command from ..............: /block [693a979446c0cd1cc0b02211@✨Srushti✨]
+2026-06-08 19:44:52 | INFO     | bot.runtime | Command: /block from ..............
+2026-06-08 19:44:52 | INFO     | commands.audit | RECV user=.............. cmd=/block invoked=/block args=['[693a979446c0cd1cc0b02211@✨Srushti✨]'] fp=72ba1a78
+2026-06-08 19:44:52 | WARNING  | commands.audit | user=.............. cmd=/block invoked=/block args=[[693a979446c0cd1cc0b02211@✨Srushti✨]] status=DENIED ok=False ms=0 msg='No permission for that command.'
+2026-06-08 19:44:53 | INFO     | wakie.chat | Message typed
+2026-06-08 19:44:57 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 19:44:57 | INFO     | wakie.chat | Message sent
+2026-06-08 19:45:17 | INFO     | wakie.detector | Command from ..............: /block ✨Srushti✨
+2026-06-08 19:45:17 | INFO     | bot.runtime | Command: /block from ..............
+2026-06-08 19:45:17 | INFO     | commands.audit | RECV user=.............. cmd=/block invoked=/block args=['✨Srushti✨'] fp=54e52177
+2026-06-08 19:45:17 | WARNING  | commands.audit | user=.............. cmd=/block invoked=/block args=[✨Srushti✨] status=DENIED ok=False ms=0 msg='No permission for that command.'
+2026-06-08 19:45:18 | ERROR    | player.autoplay_manager | Autoplay extract failed for https://www.youtube.com/playlist?list=PL5HDCGtq1uZtGtAP1eTx34IATGVfHMelL: 
+2026-06-08 19:45:18 | INFO     | player.audio_player | Streaming: Violin Song Full Video - Iddarammayilatho | Allu Arjun, Amala Paul | Devi Sri Prasad
+2026-06-08 19:45:18 | INFO     | wakie.chat | Message typed
+2026-06-08 19:45:19 | INFO     | player.playback_engine | Now playing: Violin Song Full Video - Iddarammayilatho | Allu Arjun, Amala Paul | Devi Sri Prasad (attempt 1)
+2026-06-08 19:45:20 | INFO     | wakie.chat | Message typed
+2026-06-08 19:45:21 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 19:45:22 | INFO     | wakie.chat | Message sent
+2026-06-08 19:45:24 | INFO     | wakie.chat | Retrying send (2/3)…
+2026-06-08 19:45:26 | INFO     | wakie.chat | Message typed
+2026-06-08 19:45:29 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 19:45:30 | INFO     | wakie.chat | Message sent
+2026-06-08 19:45:53 | INFO     | wakie.detector | Command from Mithya: /add ninnu kori title track
+2026-06-08 19:45:53 | INFO     | bot.runtime | Command: /add from Mithya
+2026-06-08 19:45:53 | INFO     | commands.audit | RECV user=Mithya cmd=/add invoked=/add args=['ninnu', 'kori', 'title', 'track'] fp=3afbbee7
+2026-06-08 19:45:53 | INFO     | player.local_library | No local song for query: 'ninnu kori title track'
+2026-06-08 19:45:53 | INFO     | player.youtube_service | Extracting stream: ninnu kori title track
+2026-06-08 19:45:56 | INFO     | player.stream_queue | User queued: Ninnu Kori Title Video Song | Ninnu Kori | Nani | Nivetha Thomas | Aadhi Pinisetty (#2)
+2026-06-08 19:45:56 | INFO     | commands.audit | user=Mithya cmd=/add invoked=/add args=[ninnu kori title track] status=SUCCESS ok=True ms=3011 msg='Added: Ninnu Kori Title Video Song | Ninnu Kori | Nani | Nivetha Thomas | Aadhi '
+2026-06-08 19:45:57 | INFO     | wakie.chat | Message typed
+2026-06-08 19:46:01 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 19:46:01 | INFO     | wakie.chat | Message sent
+2026-06-08 19:46:47 | INFO     | wakie.detector | Command from ✨️Siya..: /queue
+2026-06-08 19:46:47 | INFO     | bot.runtime | Command: /q from ✨️Siya..
+2026-06-08 19:46:47 | INFO     | commands.audit | RECV user=✨️Siya.. cmd=/q invoked=/queue args=[] fp=3dcc992b
+2026-06-08 19:46:47 | INFO     | commands.audit | user=✨️Siya.. cmd=/q invoked=/queue args=[] status=SUCCESS ok=True ms=0 msg='Queue (2):\n1. O Cheliya Lyrical || Premikudu Movie Songs || Prabhu D…\n2. Ninnu K'
+2026-06-08 19:46:48 | INFO     | wakie.chat | Message typed
+2026-06-08 19:46:51 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 19:46:52 | INFO     | wakie.chat | Message sent
+2026-06-08 19:47:20 | INFO     | wakie.detector | Command from ..............: /add ninnila
+2026-06-08 19:47:20 | INFO     | bot.runtime | Command: /add from ..............
+2026-06-08 19:47:20 | INFO     | commands.audit | RECV user=.............. cmd=/add invoked=/add args=['ninnila'] fp=a49c0db7
+2026-06-08 19:47:20 | INFO     | player.local_library | No local song for query: 'ninnila'
+2026-06-08 19:47:20 | INFO     | player.youtube_service | Extracting stream: ninnila
+2026-06-08 19:47:22 | INFO     | player.stream_queue | User queued: Ninnila Full Video Song | Tholi Prema Video Songs | Varun Tej, Raashi Khanna | SS Thaman (#3)
+2026-06-08 19:47:22 | INFO     | commands.audit | user=.............. cmd=/add invoked=/add args=[ninnila] status=SUCCESS ok=True ms=2388 msg='Added: Ninnila Full Video Song | Tholi Prema Video Songs | Varun Tej, Raashi Kha'
+2026-06-08 19:47:23 | INFO     | wakie.chat | Message typed
+2026-06-08 19:47:26 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 19:47:27 | INFO     | wakie.chat | Message sent
+2026-06-08 19:47:41 | INFO     | wakie.detector | Command from Kubernetes: /next
+2026-06-08 19:47:41 | INFO     | bot.runtime | Command: /skip from Kubernetes
+2026-06-08 19:47:41 | INFO     | commands.audit | RECV user=Kubernetes cmd=/skip invoked=/next args=[] fp=d15c4fe4
+2026-06-08 19:47:41 | WARNING  | commands.audit | user=Kubernetes cmd=/skip invoked=/next args=[] status=ERROR ok=False ms=0 msg='Nothing playing to skip.'
+2026-06-08 19:47:43 | INFO     | wakie.chat | Message typed
+2026-06-08 19:47:48 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 19:47:49 | INFO     | wakie.chat | Message sent
+2026-06-08 19:49:47 | INFO     | player.audio_player | Streaming: O Cheliya Lyrical || Premikudu Movie Songs || Prabhu Deva, Nagma || A R Rahman, Shankar
+2026-06-08 19:49:48 | INFO     | player.playback_engine | Now playing: O Cheliya Lyrical || Premikudu Movie Songs || Prabhu Deva, Nagma || A R Rahman, Shankar (attempt 1)
+2026-06-08 19:49:48 | INFO     | wakie.chat | Message typed
+2026-06-08 19:49:52 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 19:49:53 | INFO     | wakie.chat | Message sent
+2026-06-08 19:49:56 | INFO     | wakie.detector | Command from ...... к..ˢ..ย......: /add https://youtu.be/M5KHdrFpSLM?si=HFMgIUdnf6Iyq791
+2026-06-08 19:49:56 | INFO     | bot.runtime | Command: /add from ...... к..ˢ..ย......
+2026-06-08 19:49:56 | INFO     | commands.audit | RECV user=...... к..ˢ..ย...... cmd=/add invoked=/add args=['https://youtu.be/M5KHdrFpSLM?si=HFMgIUdnf6Iyq791'] fp=42b26e10
+2026-06-08 19:49:56 | INFO     | player.local_library | No local song for query: 'https://youtu.be/M5KHdrFpSLM?si=HFMgIUdnf6Iyq791'
+2026-06-08 19:49:56 | INFO     | player.youtube_service | Extracting stream: https://youtu.be/M5KHdrFpSLM?si=HFMgIUdnf6Iyq791
+2026-06-08 19:49:58 | INFO     | player.stream_queue | User queued: Hai Re Song | Itllu Arjuna | Aniesh | Anaswara | Thaman S |Anirudh | Mahesh Uppala | Venky Kudumula (#3)
+2026-06-08 19:49:58 | INFO     | commands.audit | user=...... к..ˢ..ย...... cmd=/add invoked=/add args=[https://youtu.be/M5KHdrFpSLM?si=HFMgIUdnf6Iyq791] status=SUCCESS ok=True ms=1608 msg='Added: Hai Re Song | Itllu Arjuna | Aniesh | Anaswara | Thaman S |Anirudh | Mahe'
+2026-06-08 19:49:59 | INFO     | wakie.chat | Message typed
+2026-06-08 19:50:02 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 19:50:03 | INFO     | wakie.chat | Message sent
+2026-06-08 19:50:06 | INFO     | wakie.detector | Command from ....................: /add taka taka
+2026-06-08 19:50:06 | INFO     | bot.runtime | Command: /add from ....................
+2026-06-08 19:50:06 | INFO     | commands.audit | RECV user=.................... cmd=/add invoked=/add args=['taka', 'taka'] fp=0ae0b55f
+2026-06-08 19:50:06 | INFO     | player.local_library | No local song for query: 'taka taka'
+2026-06-08 19:50:06 | INFO     | player.youtube_service | Extracting stream: taka taka
+2026-06-08 19:50:09 | INFO     | player.stream_queue | User queued: Ahadadream x Priya Ragu x Skrillex - TAKA (#4)
+2026-06-08 19:50:09 | INFO     | commands.audit | user=.................... cmd=/add invoked=/add args=[taka taka] status=SUCCESS ok=True ms=2850 msg='Added: Ahadadream x Priya Ragu x Skrillex - TAKA (#4)'
+2026-06-08 19:50:10 | INFO     | wakie.chat | Message typed
+2026-06-08 19:50:13 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 19:50:14 | INFO     | wakie.chat | Message sent
+2026-06-08 19:50:49 | INFO     | wakie.detector | Command from ⚔️ VɪVΣK..: /q
+2026-06-08 19:50:49 | INFO     | bot.runtime | Command: /q from ⚔️ VɪVΣK..
+2026-06-08 19:50:49 | INFO     | commands.audit | RECV user=⚔️ VɪVΣK.. cmd=/q invoked=/q args=[] fp=85fcee7b
+2026-06-08 19:50:49 | INFO     | commands.audit | user=⚔️ VɪVΣK.. cmd=/q invoked=/q args=[] status=SUCCESS ok=True ms=0 msg='Queue (4):\n1. Ninnu Kori Title Video Song | Ninnu Kori | Nani | Nive…\n2. Ninnila'
+2026-06-08 19:50:50 | INFO     | wakie.chat | Message typed
+2026-06-08 19:50:53 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 19:50:54 | INFO     | wakie.chat | Message sent
+2026-06-08 19:50:55 | INFO     | wakie.detector | Command from unknown: /q
+2026-06-08 19:50:55 | INFO     | bot.runtime | Command: /q from unknown
+2026-06-08 19:50:55 | INFO     | commands.audit | RECV user=unknown cmd=/q invoked=/q args=[] fp=76c0ee7c
+2026-06-08 19:50:55 | INFO     | commands.audit | user=unknown cmd=/q invoked=/q args=[] status=SUCCESS ok=True ms=0 msg='Queue (4):\n1. Ninnu Kori Title Video Song | Ninnu Kori | Nani | Nive…\n2. Ninnila'
+2026-06-08 19:50:56 | INFO     | wakie.chat | Message typed
+2026-06-08 19:51:00 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 19:51:00 | INFO     | wakie.chat | Message sent
+2026-06-08 19:51:02 | INFO     | wakie.detector | Duplicate command ignored: /q
+2026-06-08 19:52:07 | INFO     | wakie.detector | Command from ⚔️ VɪVΣK..: /skip
+2026-06-08 19:52:07 | INFO     | bot.runtime | Command: /skip from ⚔️ VɪVΣK..
+2026-06-08 19:52:07 | INFO     | commands.audit | RECV user=⚔️ VɪVΣK.. cmd=/skip invoked=/skip args=[] fp=ad72b166
+2026-06-08 19:52:07 | WARNING  | commands.audit | user=⚔️ VɪVΣK.. cmd=/skip invoked=/skip args=[] status=ERROR ok=False ms=0 msg='Nothing playing to skip.'
+2026-06-08 19:52:08 | INFO     | wakie.chat | Message typed
+2026-06-08 19:52:13 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 19:52:14 | INFO     | wakie.chat | Message sent
+2026-06-08 19:52:16 | INFO     | wakie.detector | Command from ....................: /add taka song from katha
+2026-06-08 19:52:16 | INFO     | bot.runtime | Command: /add from ....................
+2026-06-08 19:52:16 | INFO     | commands.audit | RECV user=.................... cmd=/add invoked=/add args=['taka', 'song', 'from', 'katha'] fp=26a5c849
+2026-06-08 19:52:16 | INFO     | player.local_library | No local song for query: 'taka song from katha'
+2026-06-08 19:52:16 | INFO     | player.youtube_service | Extracting stream: taka song from katha
+2026-06-08 19:52:18 | INFO     | player.stream_queue | User queued: Katha Telugu Movie Songs | Thaka Thaka Video Song | Adith Arun | Genelia D'Souza | Mango Music (#5)
+2026-06-08 19:52:18 | INFO     | commands.audit | user=.................... cmd=/add invoked=/add args=[taka song from katha] status=SUCCESS ok=True ms=2554 msg='Added: Katha Telugu Movie Songs | Thaka Thaka Video Song | Adith Arun | Genelia '
+2026-06-08 19:52:19 | INFO     | wakie.chat | Message typed
+2026-06-08 19:52:22 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 19:52:23 | INFO     | wakie.chat | Message sent
+2026-06-08 19:52:25 | INFO     | wakie.detector | Command from unknown: /skip
+2026-06-08 19:52:25 | INFO     | bot.runtime | Command: /skip from unknown
+2026-06-08 19:52:25 | INFO     | commands.audit | RECV user=unknown cmd=/skip invoked=/skip args=[] fp=82dc9f01
+2026-06-08 19:52:25 | WARNING  | commands.audit | user=unknown cmd=/skip invoked=/skip args=[] status=ERROR ok=False ms=0 msg='Nothing playing to skip.'
+2026-06-08 19:52:26 | INFO     | wakie.chat | Message typed
+2026-06-08 19:52:29 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 19:52:30 | INFO     | wakie.chat | Message sent
+2026-06-08 19:52:31 | INFO     | wakie.detector | Command from ⚔️ VɪVΣK..: /help
+2026-06-08 19:52:31 | INFO     | bot.runtime | Command: /help from ⚔️ VɪVΣK..
+2026-06-08 19:52:31 | INFO     | commands.audit | RECV user=⚔️ VɪVΣK.. cmd=/help invoked=/help args=[] fp=6981766e
+2026-06-08 19:52:31 | INFO     | commands.audit | user=⚔️ VɪVΣK.. cmd=/help invoked=/help args=[] status=SUCCESS ok=True ms=0 msg='Music bot — commands\n\n/add <song|url> — Add song to queue.\n/clear — Clear queue '
+2026-06-08 19:52:32 | INFO     | wakie.chat | Message typed
+2026-06-08 19:52:36 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 19:52:36 | INFO     | wakie.chat | Message sent
+2026-06-08 19:52:51 | INFO     | wakie.detector | Command from ..............: /status
+2026-06-08 19:52:51 | INFO     | bot.runtime | Command: /status from ..............
+2026-06-08 19:52:51 | INFO     | commands.audit | RECV user=.............. cmd=/status invoked=/status args=[] fp=e6499470
+2026-06-08 19:52:51 | INFO     | commands.audit | user=.............. cmd=/status invoked=/status args=[] status=SUCCESS ok=True ms=0 msg='playing | none | queue 5'
+2026-06-08 19:52:53 | INFO     | wakie.chat | Message typed
+2026-06-08 19:52:58 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 19:52:58 | INFO     | wakie.chat | Message sent
+2026-06-08 19:53:07 | INFO     | wakie.detector | Command from ⚔️ VɪVΣK..: /skip
+2026-06-08 19:53:07 | INFO     | bot.runtime | Command: /skip from ⚔️ VɪVΣK..
+2026-06-08 19:53:07 | INFO     | commands.audit | RECV user=⚔️ VɪVΣK.. cmd=/skip invoked=/skip args=[] fp=b5ce21fd
+2026-06-08 19:53:07 | WARNING  | commands.audit | user=⚔️ VɪVΣK.. cmd=/skip invoked=/skip args=[] status=ERROR ok=False ms=0 msg='Nothing playing to skip.'
+2026-06-08 19:53:08 | INFO     | wakie.chat | Message typed
+2026-06-08 19:53:12 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 19:53:12 | INFO     | wakie.chat | Message sent
+2026-06-08 19:53:32 | INFO     | wakie.detector | Command from unknown: /remove 1
+2026-06-08 19:53:32 | INFO     | bot.runtime | Command: /remove from unknown
+2026-06-08 19:53:32 | INFO     | commands.audit | RECV user=unknown cmd=/remove invoked=/remove args=['1'] fp=10404ffb
+2026-06-08 19:53:32 | WARNING  | commands.audit | user=unknown cmd=/remove invoked=/remove args=[1] status=ERROR ok=False ms=0 msg='You can only skip or remove songs you added.'
+2026-06-08 19:53:33 | INFO     | wakie.chat | Message typed
+2026-06-08 19:53:36 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 19:53:37 | INFO     | wakie.chat | Message sent
+2026-06-08 19:53:52 | INFO     | wakie.detector | Command from ....................: /skip present song
+2026-06-08 19:53:52 | INFO     | bot.runtime | Command: /skip from ....................
+2026-06-08 19:53:52 | INFO     | commands.audit | RECV user=.................... cmd=/skip invoked=/skip args=['present', 'song'] fp=ab8ba206
+2026-06-08 19:53:52 | WARNING  | commands.audit | user=.................... cmd=/skip invoked=/skip args=[present song] status=ERROR ok=False ms=0 msg='Nothing playing to skip.'
+2026-06-08 19:53:53 | INFO     | wakie.chat | Message typed
+2026-06-08 19:53:56 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 19:53:57 | INFO     | wakie.chat | Message sent
+2026-06-08 19:53:58 | INFO     | wakie.detector | Command from ..............: /remove 1
+2026-06-08 19:53:58 | INFO     | bot.runtime | Command: /remove from ..............
+2026-06-08 19:53:58 | INFO     | commands.audit | RECV user=.............. cmd=/remove invoked=/remove args=['1'] fp=8e18805f
+2026-06-08 19:53:58 | WARNING  | commands.audit | user=.............. cmd=/remove invoked=/remove args=[1] status=ERROR ok=False ms=0 msg='You can only skip or remove songs you added.'
+2026-06-08 19:53:59 | INFO     | wakie.chat | Message typed
+2026-06-08 19:54:03 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 19:54:03 | INFO     | wakie.chat | Message sent
+2026-06-08 19:54:18 | INFO     | wakie.detector | Command from unknown: /skip present song
+2026-06-08 19:54:18 | INFO     | bot.runtime | Command: /skip from unknown
+2026-06-08 19:54:18 | INFO     | commands.audit | RECV user=unknown cmd=/skip invoked=/skip args=['present', 'song'] fp=9fdf0fad
+2026-06-08 19:54:18 | WARNING  | commands.audit | user=unknown cmd=/skip invoked=/skip args=[present song] status=ERROR ok=False ms=0 msg='Nothing playing to skip.'
+2026-06-08 19:54:19 | INFO     | wakie.chat | Message typed
+2026-06-08 19:54:22 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 19:54:23 | INFO     | wakie.chat | Message sent
+2026-06-08 19:55:16 | INFO     | player.audio_player | Streaming: Ninnu Kori Title Video Song | Ninnu Kori | Nani | Nivetha Thomas | Aadhi Pinisetty
+2026-06-08 19:55:16 | INFO     | player.playback_engine | Now playing: Ninnu Kori Title Video Song | Ninnu Kori | Nani | Nivetha Thomas | Aadhi Pinisetty (attempt 1)
+2026-06-08 19:55:17 | INFO     | wakie.chat | Message typed
+2026-06-08 19:55:21 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 19:55:21 | INFO     | wakie.chat | Message sent
+2026-06-08 19:55:22 | INFO     | wakie.detector | Command from Mithya: /q
+2026-06-08 19:55:22 | INFO     | bot.runtime | Command: /q from Mithya
+2026-06-08 19:55:22 | INFO     | commands.audit | RECV user=Mithya cmd=/q invoked=/q args=[] fp=f58685db
+2026-06-08 19:55:22 | INFO     | commands.audit | user=Mithya cmd=/q invoked=/q args=[] status=SUCCESS ok=True ms=0 msg='Queue (4):\n1. Ninnila Full Video Song | Tholi Prema Video Songs | Va…\n2. Hai Re '
+2026-06-08 19:55:23 | INFO     | wakie.chat | Message typed
+2026-06-08 19:55:26 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 19:55:27 | INFO     | wakie.chat | Message sent
+2026-06-08 19:57:25 | INFO     | player.audio_player | Streaming: Ninnila Full Video Song | Tholi Prema Video Songs | Varun Tej, Raashi Khanna | SS Thaman
+2026-06-08 19:57:26 | INFO     | player.playback_engine | Now playing: Ninnila Full Video Song | Tholi Prema Video Songs | Varun Tej, Raashi Khanna | SS Thaman (attempt 1)
+2026-06-08 19:57:26 | INFO     | wakie.chat | Message typed
+2026-06-08 19:57:30 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 19:57:30 | INFO     | wakie.chat | Message sent
+2026-06-08 20:01:45 | INFO     | player.audio_player | Streaming: Hai Re Song | Itllu Arjuna | Aniesh | Anaswara | Thaman S |Anirudh | Mahesh Uppala | Venky Kudumula
+2026-06-08 20:01:45 | INFO     | player.playback_engine | Now playing: Hai Re Song | Itllu Arjuna | Aniesh | Anaswara | Thaman S |Anirudh | Mahesh Uppala | Venky Kudumula (attempt 1)
+2026-06-08 20:01:46 | INFO     | wakie.chat | Message typed
+2026-06-08 20:01:49 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:01:50 | INFO     | wakie.chat | Message sent
+2026-06-08 20:01:55 | INFO     | wakie.detector | Command from ⚔️ VɪVΣK..: /skip ra pls
+2026-06-08 20:01:55 | INFO     | bot.runtime | Command: /skip from ⚔️ VɪVΣK..
+2026-06-08 20:01:55 | INFO     | commands.audit | RECV user=⚔️ VɪVΣK.. cmd=/skip invoked=/skip args=['ra', 'pls'] fp=4eb94125
+2026-06-08 20:01:55 | WARNING  | commands.audit | user=⚔️ VɪVΣK.. cmd=/skip invoked=/skip args=[ra pls] status=ERROR ok=False ms=0 msg='Nothing playing to skip.'
+2026-06-08 20:01:56 | INFO     | wakie.chat | Message typed
+2026-06-08 20:01:59 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:02:00 | INFO     | wakie.chat | Message sent
+2026-06-08 20:03:36 | INFO     | wakie.detector | Command from unknown: /skip ra pls
+2026-06-08 20:03:36 | INFO     | wakie.detector | Command from ⚔️ VɪVΣK..: /q
+2026-06-08 20:03:36 | INFO     | bot.runtime | Command: /skip from unknown
+2026-06-08 20:03:36 | INFO     | commands.audit | RECV user=unknown cmd=/skip invoked=/skip args=['ra', 'pls'] fp=a91d77ae
+2026-06-08 20:03:36 | WARNING  | commands.audit | user=unknown cmd=/skip invoked=/skip args=[ra pls] status=ERROR ok=False ms=0 msg='Nothing playing to skip.'
+2026-06-08 20:03:37 | INFO     | wakie.chat | Message typed
+2026-06-08 20:03:40 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:03:41 | INFO     | wakie.chat | Message sent
+2026-06-08 20:03:41 | INFO     | bot.runtime | Command: /q from ⚔️ VɪVΣK..
+2026-06-08 20:03:41 | INFO     | commands.audit | RECV user=⚔️ VɪVΣK.. cmd=/q invoked=/q args=[] fp=86093f40
+2026-06-08 20:03:41 | INFO     | commands.audit | user=⚔️ VɪVΣK.. cmd=/q invoked=/q args=[] status=SUCCESS ok=True ms=0 msg='Queue (2):\n1. Ahadadream x Priya Ragu x Skrillex - TAKA\n2. Katha Telugu Movie So'
+2026-06-08 20:03:42 | INFO     | wakie.chat | Message typed
+2026-06-08 20:03:45 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:03:46 | INFO     | wakie.chat | Message sent
+2026-06-08 20:05:15 | INFO     | player.audio_player | Streaming: Ahadadream x Priya Ragu x Skrillex - TAKA
+2026-06-08 20:05:16 | INFO     | player.playback_engine | Now playing: Ahadadream x Priya Ragu x Skrillex - TAKA (attempt 1)
+2026-06-08 20:05:17 | INFO     | wakie.chat | Message typed
+2026-06-08 20:05:20 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:05:21 | INFO     | wakie.chat | Message sent
+2026-06-08 20:07:26 | INFO     | wakie.detector | Command from Mithya: /add yara nocturne love me wrong
+2026-06-08 20:07:26 | INFO     | bot.runtime | Command: /add from Mithya
+2026-06-08 20:07:26 | INFO     | commands.audit | RECV user=Mithya cmd=/add invoked=/add args=['yara', 'nocturne', 'love', 'me', 'wrong'] fp=599b116a
+2026-06-08 20:07:26 | INFO     | player.local_library | No local song for query: 'yara nocturne love me wrong'
+2026-06-08 20:07:26 | INFO     | player.youtube_service | Extracting stream: yara nocturne love me wrong
+2026-06-08 20:07:29 | INFO     | player.stream_queue | User queued: VILLAIN TONIGHT🖤Love Me Wrong (Dark R&B) #music (#2)
+2026-06-08 20:07:29 | INFO     | commands.audit | user=Mithya cmd=/add invoked=/add args=[yara nocturne love me wrong] status=SUCCESS ok=True ms=2614 msg='Added: VILLAIN TONIGHT🖤Love Me Wrong (Dark R&B) #music (#2)'
+2026-06-08 20:07:29 | INFO     | wakie.chat | Message typed
+2026-06-08 20:07:33 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:07:33 | INFO     | wakie.chat | Message sent
+2026-06-08 20:08:08 | INFO     | player.audio_player | Streaming: Katha Telugu Movie Songs | Thaka Thaka Video Song | Adith Arun | Genelia D'Souza | Mango Music
+2026-06-08 20:08:08 | INFO     | player.playback_engine | Now playing: Katha Telugu Movie Songs | Thaka Thaka Video Song | Adith Arun | Genelia D'Souza | Mango Music (attempt 1)
+2026-06-08 20:08:09 | INFO     | wakie.chat | Message typed
+2026-06-08 20:08:12 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:08:13 | INFO     | wakie.chat | Message sent
+2026-06-08 20:10:06 | INFO     | wakie.detector | Command from ⚔️ VɪVΣK..: /q
+2026-06-08 20:10:06 | INFO     | bot.runtime | Command: /q from ⚔️ VɪVΣK..
+2026-06-08 20:10:06 | INFO     | commands.audit | RECV user=⚔️ VɪVΣK.. cmd=/q invoked=/q args=[] fp=8b1ea387
+2026-06-08 20:10:06 | INFO     | commands.audit | user=⚔️ VɪVΣK.. cmd=/q invoked=/q args=[] status=SUCCESS ok=True ms=0 msg='Queue (1):\n1. VILLAIN TONIGHT🖤Love Me Wrong (Dark R&B) #music'
+2026-06-08 20:10:07 | INFO     | wakie.chat | Message typed
+2026-06-08 20:10:11 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:10:11 | INFO     | wakie.chat | Message sent
+2026-06-08 20:10:42 | INFO     | wakie.detector | Command from unknown: /q
+2026-06-08 20:10:42 | INFO     | bot.runtime | Command: /q from unknown
+2026-06-08 20:10:42 | INFO     | commands.audit | RECV user=unknown cmd=/q invoked=/q args=[] fp=f57a2ddc
+2026-06-08 20:10:42 | INFO     | commands.audit | user=unknown cmd=/q invoked=/q args=[] status=SUCCESS ok=True ms=0 msg='Queue (1):\n1. VILLAIN TONIGHT🖤Love Me Wrong (Dark R&B) #music'
+2026-06-08 20:10:43 | INFO     | wakie.chat | Message typed
+2026-06-08 20:10:47 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:10:47 | INFO     | wakie.chat | Message sent
+2026-06-08 20:10:49 | INFO     | wakie.detector | Command from ⚔️ VɪVΣK..: /add yedhemaina sakhi female version
+2026-06-08 20:10:49 | INFO     | bot.runtime | Command: /add from ⚔️ VɪVΣK..
+2026-06-08 20:10:49 | INFO     | commands.audit | RECV user=⚔️ VɪVΣK.. cmd=/add invoked=/add args=['yedhemaina', 'sakhi', 'female', 'version'] fp=0795da30
+2026-06-08 20:10:49 | INFO     | player.local_library | No local song for query: 'yedhemaina sakhi female version'
+2026-06-08 20:10:49 | INFO     | player.youtube_service | Extracting stream: yedhemaina sakhi female version
+2026-06-08 20:10:51 | INFO     | player.stream_queue | User queued: Vikramasimha - Yedemaina Sakha Song | Rajinikanth (#2)
+2026-06-08 20:10:51 | INFO     | commands.audit | user=⚔️ VɪVΣK.. cmd=/add invoked=/add args=[yedhemaina sakhi female version] status=SUCCESS ok=True ms=2397 msg='Added: Vikramasimha - Yedemaina Sakha Song | Rajinikanth (#2)'
+2026-06-08 20:10:52 | INFO     | wakie.chat | Message typed
+2026-06-08 20:10:56 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:10:56 | INFO     | wakie.chat | Message sent
+2026-06-08 20:10:58 | INFO     | wakie.detector | Command from ....................: /add Kalyani song kds arjn
+2026-06-08 20:10:58 | INFO     | bot.runtime | Command: /add from ....................
+2026-06-08 20:10:58 | INFO     | commands.audit | RECV user=.................... cmd=/add invoked=/add args=['Kalyani', 'song', 'kds', 'arjn'] fp=85e8ab64
+2026-06-08 20:10:58 | INFO     | player.local_library | No local song for query: 'Kalyani song kds arjn'
+2026-06-08 20:10:58 | INFO     | player.youtube_service | Extracting stream: Kalyani song kds arjn
+2026-06-08 20:11:00 | INFO     | player.stream_queue | User queued: ARJN x KDS x FIFTY4 x RONN - KALYANI [ Official Lyrical Video ] (#3)
+2026-06-08 20:11:00 | INFO     | commands.audit | user=.................... cmd=/add invoked=/add args=[Kalyani song kds arjn] status=SUCCESS ok=True ms=2521 msg='Added: ARJN x KDS x FIFTY4 x RONN - KALYANI [ Official Lyrical Video ] (#3)'
+2026-06-08 20:11:01 | INFO     | wakie.chat | Message typed
+2026-06-08 20:11:05 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:11:05 | INFO     | wakie.chat | Message sent
+2026-06-08 20:12:06 | INFO     | player.audio_player | Streaming: VILLAIN TONIGHT🖤Love Me Wrong (Dark R&B) #music
+2026-06-08 20:12:06 | INFO     | player.playback_engine | Now playing: VILLAIN TONIGHT🖤Love Me Wrong (Dark R&B) #music (attempt 1)
+2026-06-08 20:12:07 | INFO     | wakie.chat | Message typed
+2026-06-08 20:12:07 | INFO     | wakie.detector | Command from unknown: /add yedhemaina sakhi female version
+2026-06-08 20:12:07 | INFO     | bot.runtime | Command: /add from unknown
+2026-06-08 20:12:07 | INFO     | commands.audit | RECV user=unknown cmd=/add invoked=/add args=['yedhemaina', 'sakhi', 'female', 'version'] fp=31631ae1
+2026-06-08 20:12:07 | INFO     | player.local_library | No local song for query: 'yedhemaina sakhi female version'
+2026-06-08 20:12:07 | INFO     | player.youtube_service | Extracting stream: yedhemaina sakhi female version
+2026-06-08 20:12:10 | INFO     | player.stream_queue | User queued: Vikramasimha - Yedemaina Sakha Song | Rajinikanth (#3)
+2026-06-08 20:12:10 | INFO     | commands.audit | user=unknown cmd=/add invoked=/add args=[yedhemaina sakhi female version] status=SUCCESS ok=True ms=2282 msg='Added: Vikramasimha - Yedemaina Sakha Song | Rajinikanth (#3)'
+2026-06-08 20:12:10 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:12:10 | INFO     | wakie.chat | Message typed
+2026-06-08 20:12:11 | INFO     | wakie.chat | Message sent
+2026-06-08 20:12:14 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:12:14 | INFO     | wakie.chat | Message sent
+2026-06-08 20:15:42 | INFO     | wakie.detector | Command from ...... к..ˢ..ย......: /add https://youtu.be/iAtoZar5W58?si=812i6p-bNcpUwdtG
+2026-06-08 20:15:42 | INFO     | bot.runtime | Command: /add from ...... к..ˢ..ย......
+2026-06-08 20:15:42 | INFO     | commands.audit | RECV user=...... к..ˢ..ย...... cmd=/add invoked=/add args=['https://youtu.be/iAtoZar5W58?si=812i6p-bNcpUwdtG'] fp=e2caa637
+2026-06-08 20:15:42 | INFO     | player.local_library | No local song for query: 'https://youtu.be/iAtoZar5W58?si=812i6p-bNcpUwdtG'
+2026-06-08 20:15:42 | INFO     | player.youtube_service | Extracting stream: https://youtu.be/iAtoZar5W58?si=812i6p-bNcpUwdtG
+2026-06-08 20:15:43 | INFO     | player.stream_queue | User queued: Aaya Sher - Lyrical | The Paradise | Nani | Anirudh Ravichander | Srikanth Odela (#4)
+2026-06-08 20:15:43 | INFO     | commands.audit | user=...... к..ˢ..ย...... cmd=/add invoked=/add args=[https://youtu.be/iAtoZar5W58?si=812i6p-bNcpUwdtG] status=SUCCESS ok=True ms=1579 msg='Added: Aaya Sher - Lyrical | The Paradise | Nani | Anirudh Ravichander | Srikant'
+2026-06-08 20:15:44 | INFO     | wakie.chat | Message typed
+2026-06-08 20:15:48 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:15:48 | INFO     | wakie.chat | Message sent
+2026-06-08 20:15:52 | INFO     | player.audio_player | Streaming: Vikramasimha - Yedemaina Sakha Song | Rajinikanth
+2026-06-08 20:15:52 | INFO     | player.playback_engine | Now playing: Vikramasimha - Yedemaina Sakha Song | Rajinikanth (attempt 1)
+2026-06-08 20:15:53 | INFO     | wakie.chat | Message typed
+2026-06-08 20:15:56 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:15:57 | INFO     | wakie.chat | Message sent
+2026-06-08 20:16:32 | INFO     | wakie.detector | Command from /add https: //youtu.be/iAtoZar5W58?si=812i6p-bNcpUwdtG
+2026-06-08 20:16:32 | INFO     | bot.runtime | Command: / from /add https
+2026-06-08 20:16:32 | INFO     | commands.audit | RECV user=/add https cmd=/ invoked=/ args=[] fp=b9fc2d18
+2026-06-08 20:16:32 | WARNING  | commands.audit | user=/add https cmd=/ invoked=/ args=[] status=UNKNOWN ok=False ms=0 msg='Unknown command: /. Try /help'
+2026-06-08 20:16:33 | INFO     | wakie.chat | Message typed
+2026-06-08 20:16:36 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:16:37 | INFO     | wakie.chat | Message sent
+2026-06-08 20:18:24 | INFO     | wakie.detector | Command from ✨Srushti✨: /add netho bandham aa rasindhi evaro
+2026-06-08 20:18:24 | INFO     | bot.runtime | Command: /add from ✨Srushti✨
+2026-06-08 20:18:24 | INFO     | commands.audit | RECV user=✨Srushti✨ cmd=/add invoked=/add args=['netho', 'bandham', 'aa', 'rasindhi', 'evaro'] fp=03a0060f
+2026-06-08 20:18:24 | INFO     | player.local_library | No local song for query: 'netho bandham aa rasindhi evaro'
+2026-06-08 20:18:24 | INFO     | player.youtube_service | Extracting stream: netho bandham aa rasindhi evaro
+2026-06-08 20:18:27 | INFO     | player.stream_queue | User queued: Neetho Bandhame Rasindevaro Telugu Love Song With Lyrics  - Endukante Premanta | by apple lyrics (#4)
+2026-06-08 20:18:27 | INFO     | commands.audit | user=✨Srushti✨ cmd=/add invoked=/add args=[netho bandham aa rasindhi evaro] status=SUCCESS ok=True ms=2306 msg='Added: Neetho Bandhame Rasindevaro Telugu Love Song With Lyrics  - Endukante Pre'
+2026-06-08 20:18:27 | INFO     | wakie.chat | Message typed
+2026-06-08 20:18:31 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:18:31 | INFO     | wakie.chat | Message sent
+2026-06-08 20:19:32 | INFO     | wakie.detector | Command from ..............: /help
+2026-06-08 20:19:32 | INFO     | bot.runtime | Command: /help from ..............
+2026-06-08 20:19:32 | INFO     | commands.audit | RECV user=.............. cmd=/help invoked=/help args=[] fp=c29bcdda
+2026-06-08 20:19:32 | INFO     | commands.audit | user=.............. cmd=/help invoked=/help args=[] status=SUCCESS ok=True ms=1 msg='Music bot — commands\n\n/add <song|url> — Add song to queue.\n/clear — Clear queue '
+2026-06-08 20:19:33 | INFO     | wakie.chat | Message typed
+2026-06-08 20:19:36 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:19:37 | INFO     | wakie.chat | Message sent
+2026-06-08 20:19:48 | INFO     | player.audio_player | Streaming: ARJN x KDS x FIFTY4 x RONN - KALYANI [ Official Lyrical Video ]
+2026-06-08 20:19:49 | INFO     | player.playback_engine | Now playing: ARJN x KDS x FIFTY4 x RONN - KALYANI [ Official Lyrical Video ] (attempt 1)
+2026-06-08 20:19:49 | INFO     | wakie.chat | Message typed
+2026-06-08 20:19:53 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:19:53 | INFO     | wakie.chat | Message sent
+2026-06-08 20:20:04 | INFO     | wakie.detector | Command from ..............: /upnext
+2026-06-08 20:20:04 | INFO     | bot.runtime | Command: /upnext from ..............
+2026-06-08 20:20:04 | INFO     | commands.audit | RECV user=.............. cmd=/upnext invoked=/upnext args=[] fp=4d58fe63
+2026-06-08 20:20:04 | INFO     | commands.audit | user=.............. cmd=/upnext invoked=/upnext args=[] status=SUCCESS ok=True ms=0 msg='Up next: Vikramasimha - Yedemaina Sakha Song | Rajinikanth'
+2026-06-08 20:20:05 | INFO     | wakie.chat | Message typed
+2026-06-08 20:20:09 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:20:09 | INFO     | wakie.chat | Message sent
+2026-06-08 20:20:11 | INFO     | wakie.detector | Command from ✨Srushti✨: /q
+2026-06-08 20:20:11 | INFO     | bot.runtime | Command: /q from ✨Srushti✨
+2026-06-08 20:20:11 | INFO     | commands.audit | RECV user=✨Srushti✨ cmd=/q invoked=/q args=[] fp=492777fa
+2026-06-08 20:20:11 | INFO     | commands.audit | user=✨Srushti✨ cmd=/q invoked=/q args=[] status=SUCCESS ok=True ms=0 msg='Queue (3):\n1. Vikramasimha - Yedemaina Sakha Song | Rajinikanth\n2. Aaya Sher - L'
+2026-06-08 20:20:12 | INFO     | wakie.chat | Message typed
+2026-06-08 20:20:15 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:20:16 | INFO     | wakie.chat | Message sent
+2026-06-08 20:20:36 | INFO     | wakie.detector | Command from unknown: /upnext
+2026-06-08 20:20:36 | INFO     | wakie.detector | Command from ✨Srushti✨: /skip
+2026-06-08 20:20:36 | INFO     | bot.runtime | Command: /upnext from unknown
+2026-06-08 20:20:36 | INFO     | commands.audit | RECV user=unknown cmd=/upnext invoked=/upnext args=[] fp=4077636c
+2026-06-08 20:20:36 | INFO     | commands.audit | user=unknown cmd=/upnext invoked=/upnext args=[] status=SUCCESS ok=True ms=0 msg='Up next: Vikramasimha - Yedemaina Sakha Song | Rajinikanth'
+2026-06-08 20:20:36 | INFO     | wakie.chat | Message typed
+2026-06-08 20:20:40 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:20:40 | INFO     | wakie.chat | Message sent
+2026-06-08 20:20:40 | INFO     | bot.runtime | Command: /skip from ✨Srushti✨
+2026-06-08 20:20:40 | INFO     | commands.audit | RECV user=✨Srushti✨ cmd=/skip invoked=/skip args=[] fp=2eb32f6b
+2026-06-08 20:20:40 | WARNING  | commands.audit | user=✨Srushti✨ cmd=/skip invoked=/skip args=[] status=ERROR ok=False ms=0 msg='Nothing playing to skip.'
+2026-06-08 20:20:41 | INFO     | wakie.chat | Message typed
+2026-06-08 20:20:44 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:20:45 | INFO     | wakie.chat | Message sent
+2026-06-08 20:20:47 | INFO     | wakie.detector | Command from ..............: /clear
+2026-06-08 20:20:47 | INFO     | bot.runtime | Command: /clear from ..............
+2026-06-08 20:20:47 | INFO     | commands.audit | RECV user=.............. cmd=/clear invoked=/clear args=[] fp=f06e39a4
+2026-06-08 20:20:47 | INFO     | commands.audit | user=.............. cmd=/clear invoked=/clear args=[] status=SUCCESS ok=True ms=0 msg='Cleared 0 request(s).'
+2026-06-08 20:20:48 | INFO     | wakie.chat | Message typed
+2026-06-08 20:20:51 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:20:52 | INFO     | wakie.chat | Message sent
+2026-06-08 20:21:32 | INFO     | wakie.detector | Command from ..............: /volume
+2026-06-08 20:21:32 | INFO     | bot.runtime | Command: /volume from ..............
+2026-06-08 20:21:32 | INFO     | commands.audit | RECV user=.............. cmd=/volume invoked=/volume args=[] fp=289587bd
+2026-06-08 20:21:32 | INFO     | commands.audit | user=.............. cmd=/volume invoked=/volume args=[] status=SUCCESS ok=True ms=0 msg='Volume: 80%'
+2026-06-08 20:21:33 | INFO     | wakie.chat | Message typed
+2026-06-08 20:21:36 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:21:37 | INFO     | wakie.chat | Message sent
+2026-06-08 20:22:37 | INFO     | wakie.detector | Command from ...... к..ˢ..ย......: /q
+2026-06-08 20:22:37 | INFO     | bot.runtime | Command: /q from ...... к..ˢ..ย......
+2026-06-08 20:22:37 | INFO     | commands.audit | RECV user=...... к..ˢ..ย...... cmd=/q invoked=/q args=[] fp=d2ef35c0
+2026-06-08 20:22:37 | INFO     | commands.audit | user=...... к..ˢ..ย...... cmd=/q invoked=/q args=[] status=SUCCESS ok=True ms=0 msg='Queue (3):\n1. Vikramasimha - Yedemaina Sakha Song | Rajinikanth\n2. Aaya Sher - L'
+2026-06-08 20:22:38 | INFO     | wakie.chat | Message typed
+2026-06-08 20:22:41 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:22:42 | INFO     | wakie.chat | Message sent
+2026-06-08 20:22:53 | INFO     | wakie.detector | Command from unknown: /volume
+2026-06-08 20:22:53 | INFO     | bot.runtime | Command: /volume from unknown
+2026-06-08 20:22:53 | INFO     | commands.audit | RECV user=unknown cmd=/volume invoked=/volume args=[] fp=b948e0a6
+2026-06-08 20:22:53 | INFO     | commands.audit | user=unknown cmd=/volume invoked=/volume args=[] status=SUCCESS ok=True ms=0 msg='Volume: 80%'
+2026-06-08 20:22:53 | INFO     | wakie.chat | Message typed
+2026-06-08 20:22:57 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:22:57 | INFO     | wakie.chat | Message sent
+2026-06-08 20:23:48 | INFO     | player.audio_player | Streaming: Vikramasimha - Yedemaina Sakha Song | Rajinikanth
+2026-06-08 20:23:49 | INFO     | player.playback_engine | Now playing: Vikramasimha - Yedemaina Sakha Song | Rajinikanth (attempt 1)
+2026-06-08 20:23:49 | INFO     | wakie.chat | Message typed
+2026-06-08 20:23:53 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:23:53 | INFO     | wakie.chat | Message sent
+2026-06-08 20:25:21 | INFO     | wakie.detector | Command from ..............: /q
+2026-06-08 20:25:21 | INFO     | bot.runtime | Command: /q from ..............
+2026-06-08 20:25:21 | INFO     | commands.audit | RECV user=.............. cmd=/q invoked=/q args=[] fp=2610290e
+2026-06-08 20:25:21 | INFO     | commands.audit | user=.............. cmd=/q invoked=/q args=[] status=SUCCESS ok=True ms=0 msg='Queue (2):\n1. Aaya Sher - Lyrical | The Paradise | Nani | Anirudh Ra…\n2. Neetho '
+2026-06-08 20:25:22 | INFO     | wakie.chat | Message typed
+2026-06-08 20:25:26 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:25:26 | INFO     | wakie.chat | Message sent
+2026-06-08 20:27:45 | INFO     | player.audio_player | Streaming: Aaya Sher - Lyrical | The Paradise | Nani | Anirudh Ravichander | Srikanth Odela
+2026-06-08 20:27:45 | INFO     | player.playback_engine | Now playing: Aaya Sher - Lyrical | The Paradise | Nani | Anirudh Ravichander | Srikanth Odela (attempt 1)
+2026-06-08 20:27:46 | INFO     | wakie.chat | Message typed
+2026-06-08 20:27:49 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:27:50 | INFO     | wakie.chat | Message sent
+2026-06-08 20:28:19 | INFO     | wakie.detector | Command from ✨Srushti✨: /clear
+2026-06-08 20:28:19 | INFO     | bot.runtime | Command: /clear from ✨Srushti✨
+2026-06-08 20:28:19 | INFO     | commands.audit | RECV user=✨Srushti✨ cmd=/clear invoked=/clear args=[] fp=361cc1b5
+2026-06-08 20:28:19 | INFO     | player.autoplay_manager | Autoplay resumed — user queue empty
+2026-06-08 20:28:19 | INFO     | commands.audit | user=✨Srushti✨ cmd=/clear invoked=/clear args=[] status=SUCCESS ok=True ms=0 msg='Cleared 1 request(s).'
+2026-06-08 20:28:20 | INFO     | wakie.chat | Message typed
+2026-06-08 20:28:24 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:28:24 | INFO     | wakie.chat | Message sent
+2026-06-08 20:29:03 | INFO     | wakie.detector | Command from ✨Srushti✨: /upnext
+2026-06-08 20:29:03 | INFO     | bot.runtime | Command: /upnext from ✨Srushti✨
+2026-06-08 20:29:03 | INFO     | commands.audit | RECV user=✨Srushti✨ cmd=/upnext invoked=/upnext args=[] fp=f523398c
+2026-06-08 20:29:03 | INFO     | commands.audit | user=✨Srushti✨ cmd=/upnext invoked=/upnext args=[] status=SUCCESS ok=True ms=0 msg='Nothing queued next.'
+2026-06-08 20:29:03 | INFO     | wakie.chat | Message typed
+2026-06-08 20:29:07 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:29:07 | INFO     | wakie.chat | Message sent
+2026-06-08 20:29:15 | INFO     | wakie.detector | Command from ✨Srushti✨: /q
+2026-06-08 20:29:15 | INFO     | bot.runtime | Command: /q from ✨Srushti✨
+2026-06-08 20:29:15 | INFO     | commands.audit | RECV user=✨Srushti✨ cmd=/q invoked=/q args=[] fp=ba3abc53
+2026-06-08 20:29:15 | INFO     | commands.audit | user=✨Srushti✨ cmd=/q invoked=/q args=[] status=SUCCESS ok=True ms=0 msg='Queue is empty.'
+2026-06-08 20:29:15 | INFO     | wakie.chat | Message typed
+2026-06-08 20:29:19 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:29:19 | INFO     | wakie.chat | Message sent
+2026-06-08 20:29:38 | INFO     | wakie.detector | Command from ✨Srushti✨: /add neetho bandham aa rasindhi evaro
+2026-06-08 20:29:38 | INFO     | bot.runtime | Command: /add from ✨Srushti✨
+2026-06-08 20:29:38 | INFO     | commands.audit | RECV user=✨Srushti✨ cmd=/add invoked=/add args=['neetho', 'bandham', 'aa', 'rasindhi', 'evaro'] fp=e3f1057f
+2026-06-08 20:29:38 | INFO     | player.local_library | No local song for query: 'neetho bandham aa rasindhi evaro'
+2026-06-08 20:29:38 | INFO     | player.youtube_service | Extracting stream: neetho bandham aa rasindhi evaro
+2026-06-08 20:29:40 | INFO     | player.autoplay_manager | Autoplay paused — user queue active
+2026-06-08 20:29:40 | INFO     | player.stream_queue | User queued: Nee Choopule Full Video Song HD | Endukante Premanta Songs | Ram Pothineni | Tamannaah | GV Prakash (#1)
+2026-06-08 20:29:40 | INFO     | commands.audit | user=✨Srushti✨ cmd=/add invoked=/add args=[neetho bandham aa rasindhi evaro] status=SUCCESS ok=True ms=2469 msg='Added: Nee Choopule Full Video Song HD | Endukante Premanta Songs | Ram Pothinen'
+2026-06-08 20:29:41 | INFO     | wakie.chat | Message typed
+2026-06-08 20:29:44 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:29:45 | INFO     | wakie.chat | Message sent
+2026-06-08 20:30:10 | INFO     | wakie.detector | Command from Kubernetes: /add manohari bahubali
+2026-06-08 20:30:10 | INFO     | bot.runtime | Command: /add from Kubernetes
+2026-06-08 20:30:10 | INFO     | commands.audit | RECV user=Kubernetes cmd=/add invoked=/add args=['manohari', 'bahubali'] fp=6073380b
+2026-06-08 20:30:10 | INFO     | player.local_library | No local song for query: 'manohari bahubali'
+2026-06-08 20:30:10 | INFO     | player.youtube_service | Extracting stream: manohari bahubali
+2026-06-08 20:30:13 | INFO     | player.stream_queue | User queued: Manohari [4K] Full Video Song | Baahubali (Telugu) | Prabhas, Rana, Anushka, Tamannaah | Bahubali (#2)
+2026-06-08 20:30:13 | INFO     | commands.audit | user=Kubernetes cmd=/add invoked=/add args=[manohari bahubali] status=SUCCESS ok=True ms=2532 msg='Added: Manohari [4K] Full Video Song | Baahubali (Telugu) | Prabhas, Rana, Anush'
+2026-06-08 20:30:14 | INFO     | wakie.chat | Message typed
+2026-06-08 20:30:17 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:30:18 | INFO     | wakie.chat | Message sent
+2026-06-08 20:30:32 | INFO     | wakie.detector | Command from unknown: /add neetho bandham aa rasindhi evaro
+2026-06-08 20:30:32 | INFO     | wakie.detector | Command from Kubernetes: /help
+2026-06-08 20:30:32 | INFO     | bot.runtime | Command: /add from unknown
+2026-06-08 20:30:32 | INFO     | commands.audit | RECV user=unknown cmd=/add invoked=/add args=['neetho', 'bandham', 'aa', 'rasindhi', 'evaro'] fp=55fa1e1a
+2026-06-08 20:30:32 | INFO     | player.local_library | No local song for query: 'neetho bandham aa rasindhi evaro'
+2026-06-08 20:30:32 | INFO     | player.youtube_service | Extracting stream: neetho bandham aa rasindhi evaro
+2026-06-08 20:30:35 | INFO     | player.stream_queue | User queued: Nee Choopule Full Video Song HD | Endukante Premanta Songs | Ram Pothineni | Tamannaah | GV Prakash (#3)
+2026-06-08 20:30:35 | INFO     | commands.audit | user=unknown cmd=/add invoked=/add args=[neetho bandham aa rasindhi evaro] status=SUCCESS ok=True ms=2513 msg='Added: Nee Choopule Full Video Song HD | Endukante Premanta Songs | Ram Pothinen'
+2026-06-08 20:30:36 | INFO     | wakie.chat | Message typed
+2026-06-08 20:30:39 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:30:40 | INFO     | wakie.chat | Message sent
+2026-06-08 20:30:40 | INFO     | bot.runtime | Command: /help from Kubernetes
+2026-06-08 20:30:40 | INFO     | commands.audit | RECV user=Kubernetes cmd=/help invoked=/help args=[] fp=19977ddb
+2026-06-08 20:30:40 | INFO     | commands.audit | user=Kubernetes cmd=/help invoked=/help args=[] status=SUCCESS ok=True ms=0 msg='Music bot — commands\n\n/add <song|url> — Add song to queue.\n/clear — Clear queue '
+2026-06-08 20:30:40 | INFO     | wakie.chat | Message typed
+2026-06-08 20:30:44 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:30:44 | INFO     | wakie.chat | Message sent
+2026-06-08 20:31:17 | INFO     | wakie.detector | Command from ✨Srushti✨: /upnext
+2026-06-08 20:31:17 | INFO     | bot.runtime | Command: /upnext from ✨Srushti✨
+2026-06-08 20:31:17 | INFO     | commands.audit | RECV user=✨Srushti✨ cmd=/upnext invoked=/upnext args=[] fp=f1462d0a
+2026-06-08 20:31:17 | INFO     | commands.audit | user=✨Srushti✨ cmd=/upnext invoked=/upnext args=[] status=SUCCESS ok=True ms=0 msg='Up next: Nee Choopule Full Video Song HD | Endukante Premanta Songs | Ram Pothin'
+2026-06-08 20:31:18 | INFO     | wakie.chat | Message typed
+2026-06-08 20:31:21 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:31:22 | INFO     | wakie.chat | Message sent
+2026-06-08 20:32:02 | INFO     | wakie.detector | Command from Kubernetes: /skip
+2026-06-08 20:32:02 | INFO     | bot.runtime | Command: /skip from Kubernetes
+2026-06-08 20:32:02 | INFO     | commands.audit | RECV user=Kubernetes cmd=/skip invoked=/skip args=[] fp=5194339d
+2026-06-08 20:32:02 | WARNING  | commands.audit | user=Kubernetes cmd=/skip invoked=/skip args=[] status=ERROR ok=False ms=0 msg='Nothing playing to skip.'
+2026-06-08 20:32:03 | INFO     | wakie.chat | Message typed
+2026-06-08 20:32:06 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:32:07 | INFO     | wakie.chat | Message sent
+2026-06-08 20:32:16 | INFO     | wakie.detector | Command from Kubernetes: /q Anuraag Nothing playing to skip. Like
+2026-06-08 20:32:16 | INFO     | bot.runtime | Command: /q from Kubernetes
+2026-06-08 20:32:16 | INFO     | commands.audit | RECV user=Kubernetes cmd=/q invoked=/q args=['Anuraag', 'Nothing', 'playing', 'to', 'skip.', 'Like'] fp=07cf877b
+2026-06-08 20:32:16 | INFO     | commands.audit | user=Kubernetes cmd=/q invoked=/q args=[Anuraag Nothing playing to skip. Like] status=SUCCESS ok=True ms=0 msg='Queue (3):\n1. Nee Choopule Full Video Song HD | Endukante Premanta S…\n2. Manohar'
+2026-06-08 20:32:17 | INFO     | wakie.chat | Message typed
+2026-06-08 20:32:20 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:32:20 | INFO     | wakie.chat | Message sent
+2026-06-08 20:32:22 | INFO     | wakie.detector | Command from Kubernetes: /q
+2026-06-08 20:32:22 | INFO     | bot.runtime | Command: /q from Kubernetes
+2026-06-08 20:32:22 | INFO     | commands.audit | RECV user=Kubernetes cmd=/q invoked=/q args=[] fp=f4660758
+2026-06-08 20:32:22 | INFO     | commands.audit | user=Kubernetes cmd=/q invoked=/q args=[] status=SUCCESS ok=True ms=0 msg='Queue (3):\n1. Nee Choopule Full Video Song HD | Endukante Premanta S…\n2. Manohar'
+2026-06-08 20:32:23 | INFO     | wakie.chat | Message typed
+2026-06-08 20:32:26 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:32:27 | INFO     | wakie.chat | Message sent
+2026-06-08 20:32:40 | INFO     | player.audio_player | Streaming: Nee Choopule Full Video Song HD | Endukante Premanta Songs | Ram Pothineni | Tamannaah | GV Prakash
+2026-06-08 20:32:40 | INFO     | player.playback_engine | Now playing: Nee Choopule Full Video Song HD | Endukante Premanta Songs | Ram Pothineni | Tamannaah | GV Prakash (attempt 1)
+2026-06-08 20:32:41 | INFO     | wakie.chat | Message typed
+2026-06-08 20:32:44 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:32:45 | INFO     | wakie.chat | Message sent
+2026-06-08 20:36:52 | INFO     | player.audio_player | Streaming: Manohari [4K] Full Video Song | Baahubali (Telugu) | Prabhas, Rana, Anushka, Tamannaah | Bahubali
+2026-06-08 20:36:52 | INFO     | player.playback_engine | Now playing: Manohari [4K] Full Video Song | Baahubali (Telugu) | Prabhas, Rana, Anushka, Tamannaah | Bahubali (attempt 1)
+2026-06-08 20:36:53 | INFO     | wakie.chat | Message typed
+2026-06-08 20:36:57 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:36:57 | INFO     | wakie.chat | Message sent
+2026-06-08 20:40:28 | INFO     | player.audio_player | Streaming: Nee Choopule Full Video Song HD | Endukante Premanta Songs | Ram Pothineni | Tamannaah | GV Prakash
+2026-06-08 20:40:29 | INFO     | player.playback_engine | Now playing: Nee Choopule Full Video Song HD | Endukante Premanta Songs | Ram Pothineni | Tamannaah | GV Prakash (attempt 1)
+2026-06-08 20:40:29 | INFO     | wakie.chat | Message typed
+2026-06-08 20:40:33 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 20:40:33 | INFO     | wakie.chat | Message sent
+2026-06-08 20:44:41 | INFO     | player.autoplay_manager | Autoplay resumed — user queue empty
+2026-06-08 20:44:41 | INFO     | player.youtube_service | Extracting stream: https://www.youtube.com/playlist?list=PL4sNEU2Mgm6bNnbM-qKPmTwwDromFqpMQ
+2026-06-08 20:46:41 | ERROR    | player.autoplay_manager | Autoplay extract failed for https://www.youtube.com/playlist?list=PL4sNEU2Mgm6bNnbM-qKPmTwwDromFqpMQ: 
+2026-06-08 20:46:41 | INFO     | player.autoplay_manager | Autoplay playlist complete — reshuffling
+2026-06-08 20:46:41 | INFO     | player.youtube_service | Extracting stream: https://www.youtube.com/playlist?list=PL4sNEU2Mgm6bNnbM-qKPmTwwDromFqpMQ
+2026-06-08 20:48:41 | ERROR    | player.autoplay_manager | Autoplay extract failed for https://www.youtube.com/playlist?list=PL4sNEU2Mgm6bNnbM-qKPmTwwDromFqpMQ: 
+2026-06-08 20:48:42 | INFO     | player.youtube_service | Extracting stream: https://www.youtube.com/playlist?list=PL5HDCGtq1uZtGtAP1eTx34IATGVfHMelL
+2026-06-08 20:49:56 | INFO     | player.playback_engine | Playback engine stopped
+2026-06-08 20:49:56 | INFO     | player.audio_player | AudioPlayer shut down
+2026-06-08 20:49:56 | INFO     | wakie.reader | MessageReader disconnected
+2026-06-08 20:49:56 | INFO     | wakie.device_session | Device session closed
+2026-06-08 20:49:56 | INFO     | bot.runtime | Bot stopped
+2026-06-08 21:05:10 | INFO     | wakie.message_filter | Bot username filter: Anuraag
+2026-06-08 21:05:10 | INFO     | bot.runtime | === Wakie Music Bot starting ===
+2026-06-08 21:05:10 | INFO     | player.autoplay_manager | Autoplay playlist loaded: 2 track(s)
+2026-06-08 21:05:10 | INFO     | wakie.device_session | Connecting uiautomator2 → emulator-5554
+2026-06-08 21:05:12 | INFO     | wakie.device_session | Device ready: 900x1600 serial=emulator-5554
+2026-06-08 21:05:12 | INFO     | wakie.reader | MessageReader using shared device session
+2026-06-08 21:05:12 | INFO     | player.audio_player | VLC initialized (streaming enabled)
+2026-06-08 21:05:12 | INFO     | bot.runtime | Poll loop started (interval=1.5s)
+2026-06-08 21:05:12 | INFO     | player.playback_engine | Playback engine started
+2026-06-08 21:05:12 | INFO     | player.youtube_service | Extracting stream: https://www.youtube.com/playlist?list=PL5HDCGtq1uZtGtAP1eTx34IATGVfHMelL
+2026-06-08 21:05:56 | INFO     | wakie.detector | Command from ✨️Siya..: /add yedemaina sakhi
+2026-06-08 21:05:56 | INFO     | bot.runtime | Command: /add from ✨️Siya..
+2026-06-08 21:05:56 | INFO     | commands.audit | RECV user=✨️Siya.. cmd=/add invoked=/add args=['yedemaina', 'sakhi'] fp=b8387111
+2026-06-08 21:05:56 | INFO     | player.local_library | No local song for query: 'yedemaina sakhi'
+2026-06-08 21:05:56 | INFO     | player.youtube_service | Extracting stream: yedemaina sakhi
+2026-06-08 21:05:59 | INFO     | player.autoplay_manager | Autoplay paused — user queue active
+2026-06-08 21:05:59 | INFO     | player.stream_queue | User queued: Vikramasimha - Yedemaina Sakhi Video | A.R. Rahman | Rajinikanth, Deepika (#1)
+2026-06-08 21:05:59 | INFO     | commands.audit | user=✨️Siya.. cmd=/add invoked=/add args=[yedemaina sakhi] status=SUCCESS ok=True ms=2834 msg='Added: Vikramasimha - Yedemaina Sakhi Video | A.R. Rahman | Rajinikanth, Deepika'
+2026-06-08 21:06:02 | INFO     | wakie.chat | Message typed
+2026-06-08 21:06:06 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:06:06 | INFO     | wakie.chat_actions | Reply sent to /add yedemaina sakhi
+2026-06-08 21:06:08 | INFO     | wakie.detector | Duplicate command ignored: /add yedemaina sakhi
+2026-06-08 21:06:21 | INFO     | wakie.detector | Command from unknown: /add yedemaina sakhi
+2026-06-08 21:06:21 | INFO     | bot.runtime | Command: /add from unknown
+2026-06-08 21:06:21 | INFO     | commands.audit | RECV user=unknown cmd=/add invoked=/add args=['yedemaina', 'sakhi'] fp=784f6044
+2026-06-08 21:06:21 | INFO     | player.local_library | No local song for query: 'yedemaina sakhi'
+2026-06-08 21:06:21 | INFO     | player.youtube_service | Extracting stream: yedemaina sakhi
+2026-06-08 21:06:24 | INFO     | player.stream_queue | User queued: Vikramasimha - Yedemaina Sakhi Video | A.R. Rahman | Rajinikanth, Deepika (#2)
+2026-06-08 21:06:24 | INFO     | commands.audit | user=unknown cmd=/add invoked=/add args=[yedemaina sakhi] status=SUCCESS ok=True ms=2463 msg='Added: Vikramasimha - Yedemaina Sakhi Video | A.R. Rahman | Rajinikanth, Deepika'
+2026-06-08 21:06:26 | INFO     | wakie.chat | Message typed
+2026-06-08 21:06:30 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:06:30 | INFO     | wakie.chat_actions | Reply sent to /add yedemaina sakhi
+2026-06-08 21:07:12 | ERROR    | player.autoplay_manager | Autoplay extract failed for https://www.youtube.com/playlist?list=PL5HDCGtq1uZtGtAP1eTx34IATGVfHMelL: 
+2026-06-08 21:07:13 | INFO     | wakie.chat | Message typed
+2026-06-08 21:07:17 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:07:17 | INFO     | wakie.chat | Message sent
+2026-06-08 21:07:17 | INFO     | player.audio_player | Streaming: Vikramasimha - Yedemaina Sakhi Video | A.R. Rahman | Rajinikanth, Deepika
+2026-06-08 21:07:18 | INFO     | wakie.detector | Duplicate command ignored: /add yedemaina sakhi
+2026-06-08 21:07:19 | INFO     | player.playback_engine | Now playing: Vikramasimha - Yedemaina Sakhi Video | A.R. Rahman | Rajinikanth, Deepika (attempt 1)
+2026-06-08 21:07:20 | INFO     | wakie.chat | Message typed
+2026-06-08 21:07:23 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:07:24 | INFO     | wakie.chat | Message sent
+2026-06-08 21:07:39 | INFO     | wakie.detector | Command from ✨️Siya..: /help
+2026-06-08 21:07:39 | INFO     | bot.runtime | Command: /help from ✨️Siya..
+2026-06-08 21:07:39 | INFO     | commands.audit | RECV user=✨️Siya.. cmd=/help invoked=/help args=[] fp=7c5842d5
+2026-06-08 21:07:39 | INFO     | commands.audit | user=✨️Siya.. cmd=/help invoked=/help args=[] status=SUCCESS ok=True ms=0 msg='Music bot — commands\n\nPublic (everyone):\n  /add <song|url> — Add song to queue.\n'
+2026-06-08 21:07:42 | INFO     | wakie.chat | Message typed
+2026-06-08 21:07:45 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:07:46 | INFO     | wakie.chat_actions | Reply sent to /help
+2026-06-08 21:07:48 | INFO     | wakie.detector | Command from unknown: /add <song|url> — Add song to queue.
+2026-06-08 21:08:14 | INFO     | wakie.detector | Command from ✨️Siya..: /greet
+2026-06-08 21:08:14 | INFO     | bot.runtime | Command: /greet from ✨️Siya..
+2026-06-08 21:08:14 | INFO     | commands.audit | RECV user=✨️Siya.. cmd=/greet invoked=/greet args=[] fp=fc466a5a
+2026-06-08 21:08:14 | INFO     | commands.audit | user=✨️Siya.. cmd=/greet invoked=/greet args=[] status=SUCCESS ok=True ms=0 msg='Hey ✨️Siya..!'
+2026-06-08 21:08:17 | INFO     | wakie.chat | Message typed
+2026-06-08 21:08:20 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:08:21 | INFO     | wakie.chat_actions | Reply sent to /greet
+2026-06-08 21:08:36 | INFO     | wakie.detector | Command from ✨️Siya..: /queue
+2026-06-08 21:08:36 | INFO     | bot.runtime | Command: /q from ✨️Siya..
+2026-06-08 21:08:36 | INFO     | commands.audit | RECV user=✨️Siya.. cmd=/q invoked=/queue args=[] fp=f489cba2
+2026-06-08 21:08:36 | INFO     | commands.audit | user=✨️Siya.. cmd=/q invoked=/queue args=[] status=SUCCESS ok=True ms=0 msg='▶ Now: Vikramasimha - Yedemaina Sakhi Video | A.R. Rahman | R…\n\nUp next (1):\n1. '
+2026-06-08 21:08:39 | INFO     | wakie.chat | Message typed
+2026-06-08 21:08:42 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:08:42 | INFO     | wakie.chat_actions | Reply sent to /queue
+2026-06-08 21:08:44 | INFO     | wakie.detector | Command from unknown: /greet
+2026-06-08 21:08:44 | INFO     | wakie.detector | Duplicate command ignored: /queue
+2026-06-08 21:08:44 | INFO     | bot.runtime | Command: /greet from unknown
+2026-06-08 21:08:44 | INFO     | commands.audit | RECV user=unknown cmd=/greet invoked=/greet args=[] fp=ff60049a
+2026-06-08 21:08:44 | INFO     | commands.audit | user=unknown cmd=/greet invoked=/greet args=[] status=SUCCESS ok=True ms=0 msg='Hey unknown!'
+2026-06-08 21:08:47 | INFO     | wakie.chat | Message typed
+2026-06-08 21:08:50 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:08:51 | INFO     | wakie.chat_actions | Reply sent to /greet
+2026-06-08 21:08:53 | INFO     | wakie.detector | Command from ✨️Siya..: /clear
+2026-06-08 21:08:53 | INFO     | wakie.detector | Duplicate command ignored: /greet
+2026-06-08 21:08:53 | INFO     | bot.runtime | Command: /clear from ✨️Siya..
+2026-06-08 21:08:53 | INFO     | commands.audit | RECV user=✨️Siya.. cmd=/clear invoked=/clear args=[] fp=7eaedf72
+2026-06-08 21:08:53 | INFO     | player.autoplay_manager | Autoplay resumed — user queue empty
+2026-06-08 21:08:53 | INFO     | commands.audit | user=✨️Siya.. cmd=/clear invoked=/clear args=[] status=SUCCESS ok=True ms=0 msg='Cleared 1 request(s).'
+2026-06-08 21:08:55 | INFO     | wakie.chat | Message typed
+2026-06-08 21:08:59 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:08:59 | INFO     | wakie.chat_actions | Reply sent to /clear
+2026-06-08 21:09:01 | INFO     | wakie.detector | Command from unknown: /queue
+2026-06-08 21:09:01 | INFO     | wakie.detector | Duplicate command ignored: /clear
+2026-06-08 21:09:01 | INFO     | bot.runtime | Command: /q from unknown
+2026-06-08 21:09:01 | INFO     | commands.audit | RECV user=unknown cmd=/q invoked=/queue args=[] fp=9d7b1415
+2026-06-08 21:09:01 | INFO     | commands.audit | user=unknown cmd=/q invoked=/queue args=[] status=SUCCESS ok=True ms=0 msg='▶ Now: Vikramasimha - Yedemaina Sakhi Video | A.R. Rahman | R…'
+2026-06-08 21:09:02 | WARNING  | wakie.chat_actions | Could not open reply menu for message '/queue'
+2026-06-08 21:09:02 | WARNING  | wakie.sender | Reply failed — falling back to plain send
+2026-06-08 21:09:03 | INFO     | wakie.chat | Message typed
+2026-06-08 21:09:06 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:09:06 | INFO     | wakie.chat | Message sent
+2026-06-08 21:09:08 | INFO     | wakie.detector | Command from ✨️Siya..: /q
+2026-06-08 21:09:08 | INFO     | bot.runtime | Command: /q from ✨️Siya..
+2026-06-08 21:09:08 | INFO     | commands.audit | RECV user=✨️Siya.. cmd=/q invoked=/q args=[] fp=54915b27
+2026-06-08 21:09:08 | INFO     | commands.audit | user=✨️Siya.. cmd=/q invoked=/q args=[] status=SUCCESS ok=True ms=0 msg='▶ Now: Vikramasimha - Yedemaina Sakhi Video | A.R. Rahman | R…'
+2026-06-08 21:09:11 | INFO     | wakie.chat | Message typed
+2026-06-08 21:09:14 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:09:15 | INFO     | wakie.chat_actions | Reply sent to /q
+2026-06-08 21:09:17 | INFO     | wakie.detector | Duplicate command ignored: /q
+2026-06-08 21:09:59 | INFO     | wakie.detector | Command from ✨️Siya..: /add neetho by the violinist project
+2026-06-08 21:09:59 | INFO     | bot.runtime | Command: /add from ✨️Siya..
+2026-06-08 21:09:59 | INFO     | commands.audit | RECV user=✨️Siya.. cmd=/add invoked=/add args=['neetho', 'by', 'the', 'violinist', 'project'] fp=55405f70
+2026-06-08 21:09:59 | INFO     | player.local_library | No local song for query: 'neetho by the violinist project'
+2026-06-08 21:09:59 | INFO     | player.youtube_service | Extracting stream: neetho by the violinist project
+2026-06-08 21:10:01 | INFO     | player.autoplay_manager | Autoplay paused — user queue active
+2026-06-08 21:10:01 | INFO     | player.stream_queue | User queued: Neetho | The NonViolinist Project ft Gowtham Bharadwaj | Saathvika Raj | Official Telugu Music Video (#1)
+2026-06-08 21:10:01 | INFO     | commands.audit | user=✨️Siya.. cmd=/add invoked=/add args=[neetho by the violinist project] status=SUCCESS ok=True ms=2027 msg='Added: Neetho | The NonViolinist Project ft Gowtham Bharadwaj | Saathvika Raj | '
+2026-06-08 21:10:04 | INFO     | wakie.chat | Message typed
+2026-06-08 21:10:07 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:10:08 | INFO     | wakie.chat_actions | Reply sent to /add neetho by the violinist project
+2026-06-08 21:10:10 | INFO     | wakie.detector | Duplicate command ignored: /add neetho by the violinist project
+2026-06-08 21:11:05 | INFO     | player.playback_engine | Track finished: Vikramasimha - Yedemaina Sakhi Video | A.R. Rahman | Rajinikanth, Deepika
+2026-06-08 21:11:05 | INFO     | player.audio_player | Streaming: Neetho | The NonViolinist Project ft Gowtham Bharadwaj | Saathvika Raj | Official Telugu Music Video
+2026-06-08 21:11:05 | INFO     | player.playback_engine | Now playing: Neetho | The NonViolinist Project ft Gowtham Bharadwaj | Saathvika Raj | Official Telugu Music Video (attempt 1)
+2026-06-08 21:11:06 | INFO     | wakie.chat | Message typed
+2026-06-08 21:11:09 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:11:10 | INFO     | wakie.chat | Message sent
+2026-06-08 21:12:44 | INFO     | wakie.detector | Command from ✨️Siya..: /add andanga lena
+2026-06-08 21:12:44 | INFO     | bot.runtime | Command: /add from ✨️Siya..
+2026-06-08 21:12:44 | INFO     | commands.audit | RECV user=✨️Siya.. cmd=/add invoked=/add args=['andanga', 'lena'] fp=4db01a38
+2026-06-08 21:12:44 | INFO     | player.local_library | No local song for query: 'andanga lena'
+2026-06-08 21:12:44 | INFO     | player.youtube_service | Extracting stream: andanga lena
+2026-06-08 21:12:47 | INFO     | player.stream_queue | User queued: Godavari Songs | Andamga Lenaa Song | Kamalini | Singer Suneetha | TeluguOne (#1)
+2026-06-08 21:12:47 | INFO     | commands.audit | user=✨️Siya.. cmd=/add invoked=/add args=[andanga lena] status=SUCCESS ok=True ms=2531 msg='Added: Godavari Songs | Andamga Lenaa Song | Kamalini | Singer Suneetha | Telugu'
+2026-06-08 21:12:50 | INFO     | wakie.chat | Message typed
+2026-06-08 21:12:53 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:12:54 | INFO     | wakie.chat_actions | Reply sent to /add andanga lena
+2026-06-08 21:12:56 | INFO     | wakie.detector | Duplicate command ignored: /add andanga lena
+2026-06-08 21:14:10 | INFO     | wakie.detector | Command from unknown: /add neetho by the violinist project
+2026-06-08 21:14:10 | INFO     | bot.runtime | Command: /add from unknown
+2026-06-08 21:14:10 | INFO     | commands.audit | RECV user=unknown cmd=/add invoked=/add args=['neetho', 'by', 'the', 'violinist', 'project'] fp=120efe08
+2026-06-08 21:14:10 | INFO     | player.local_library | No local song for query: 'neetho by the violinist project'
+2026-06-08 21:14:10 | INFO     | player.youtube_service | Extracting stream: neetho by the violinist project
+2026-06-08 21:14:12 | INFO     | player.stream_queue | User queued: Neetho | The NonViolinist Project ft Gowtham Bharadwaj | Saathvika Raj | Official Telugu Music Video (#2)
+2026-06-08 21:14:12 | INFO     | commands.audit | user=unknown cmd=/add invoked=/add args=[neetho by the violinist project] status=SUCCESS ok=True ms=2666 msg='Added: Neetho | The NonViolinist Project ft Gowtham Bharadwaj | Saathvika Raj | '
+2026-06-08 21:14:13 | WARNING  | wakie.chat_actions | Could not open reply menu for message '/add neetho by the violinist project'
+2026-06-08 21:14:13 | WARNING  | wakie.sender | Reply failed — falling back to plain send
+2026-06-08 21:14:14 | INFO     | wakie.chat | Message typed
+2026-06-08 21:14:17 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:14:18 | INFO     | wakie.chat | Message sent
+2026-06-08 21:15:03 | INFO     | wakie.detector | Command from unknown: /add andanga lena
+2026-06-08 21:15:03 | INFO     | bot.runtime | Command: /add from unknown
+2026-06-08 21:15:03 | INFO     | commands.audit | RECV user=unknown cmd=/add invoked=/add args=['andanga', 'lena'] fp=3d06ae70
+2026-06-08 21:15:03 | INFO     | player.local_library | No local song for query: 'andanga lena'
+2026-06-08 21:15:03 | INFO     | player.youtube_service | Extracting stream: andanga lena
+2026-06-08 21:15:07 | INFO     | player.stream_queue | User queued: Godavari Songs | Andamga Lenaa Song | Kamalini | Singer Suneetha | TeluguOne (#3)
+2026-06-08 21:15:07 | INFO     | commands.audit | user=unknown cmd=/add invoked=/add args=[andanga lena] status=SUCCESS ok=True ms=4010 msg='Added: Godavari Songs | Andamga Lenaa Song | Kamalini | Singer Suneetha | Telugu'
+2026-06-08 21:15:09 | INFO     | wakie.chat | Message typed
+2026-06-08 21:15:13 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:15:13 | INFO     | wakie.chat_actions | Reply sent to /add andanga lena
+2026-06-08 21:15:32 | INFO     | wakie.detector | Command from ✨️Siya..: /q
+2026-06-08 21:15:32 | INFO     | bot.runtime | Command: /q from ✨️Siya..
+2026-06-08 21:15:32 | INFO     | commands.audit | RECV user=✨️Siya.. cmd=/q invoked=/q args=[] fp=df1ecc4c
+2026-06-08 21:15:32 | INFO     | commands.audit | user=✨️Siya.. cmd=/q invoked=/q args=[] status=SUCCESS ok=True ms=0 msg='▶ Now: Neetho | The NonViolinist Project ft Gowtham Bharadwaj…\n\nUp next (3):\n1. '
+2026-06-08 21:15:36 | INFO     | wakie.chat | Message typed
+2026-06-08 21:15:39 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:15:40 | INFO     | wakie.chat_actions | Reply sent to /q
+2026-06-08 21:15:42 | INFO     | wakie.detector | Command from unknown: /q
+2026-06-08 21:15:42 | INFO     | bot.runtime | Command: /q from unknown
+2026-06-08 21:15:42 | INFO     | commands.audit | RECV user=unknown cmd=/q invoked=/q args=[] fp=8db94ffd
+2026-06-08 21:15:42 | INFO     | commands.audit | user=unknown cmd=/q invoked=/q args=[] status=SUCCESS ok=True ms=0 msg='▶ Now: Neetho | The NonViolinist Project ft Gowtham Bharadwaj…\n\nUp next (3):\n1. '
+2026-06-08 21:15:44 | INFO     | wakie.chat | Message typed
+2026-06-08 21:15:48 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:15:48 | INFO     | wakie.chat_actions | Reply sent to /q
+2026-06-08 21:16:03 | INFO     | player.audio_player | AudioPlayer shut down
+2026-06-08 21:16:03 | INFO     | wakie.reader | MessageReader disconnected
+2026-06-08 21:16:03 | INFO     | wakie.device_session | Device session closed
+2026-06-08 21:16:03 | INFO     | bot.runtime | Bot stopped
+2026-06-08 21:16:07 | INFO     | wakie.message_filter | Bot username filter: Anuraag
+2026-06-08 21:16:07 | INFO     | bot.runtime | === Wakie Music Bot starting ===
+2026-06-08 21:16:07 | INFO     | player.autoplay_manager | Autoplay playlist loaded: 2 track(s)
+2026-06-08 21:16:07 | INFO     | wakie.device_session | Connecting uiautomator2 → emulator-5554
+2026-06-08 21:16:08 | INFO     | wakie.device_session | Device ready: 900x1600 serial=emulator-5554
+2026-06-08 21:16:08 | INFO     | wakie.reader | MessageReader using shared device session
+2026-06-08 21:16:08 | INFO     | player.audio_player | VLC initialized (streaming enabled)
+2026-06-08 21:16:08 | INFO     | bot.runtime | Poll loop started (interval=1.5s)
+2026-06-08 21:16:08 | INFO     | player.playback_engine | Playback engine started
+2026-06-08 21:16:08 | INFO     | player.youtube_service | Extracting stream: https://www.youtube.com/playlist?list=PL4sNEU2Mgm6bNnbM-qKPmTwwDromFqpMQ
+2026-06-08 21:16:09 | INFO     | wakie.message_filter | Ignored self user Anuraag: ▶ Now: Neetho | The NonViolinist Project ft Gowtham Bharadwa
+2026-06-08 21:16:09 | INFO     | wakie.detector | Command from ✨️Siya..: /q
+2026-06-08 21:16:09 | INFO     | bot.runtime | Command: /q from ✨️Siya..
+2026-06-08 21:16:09 | INFO     | commands.audit | RECV user=✨️Siya.. cmd=/q invoked=/q args=[] fp=97d2b2f0
+2026-06-08 21:16:09 | INFO     | commands.audit | user=✨️Siya.. cmd=/q invoked=/q args=[] status=SUCCESS ok=True ms=0 msg='Queue is empty.'
+2026-06-08 21:16:09 | WARNING  | wakie.chat_actions | Could not open reply menu for message '/q'
+2026-06-08 21:16:09 | WARNING  | wakie.sender | Reply failed — falling back to plain send
+2026-06-08 21:16:10 | INFO     | wakie.chat | Message typed
+2026-06-08 21:16:13 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:16:14 | INFO     | wakie.chat | Message sent
+2026-06-08 21:16:16 | INFO     | wakie.message_filter | Ignored bot text: ▶ Now: Neetho | The NonViolinist Project ft Gowtham Bharadwa
+2026-06-08 21:16:16 | INFO     | wakie.message_filter | Ignored self user Anuraag: Queue is empty.
+2026-06-08 21:16:27 | INFO     | wakie.detector | Command from ✨️Siya..: /add andanga lena
+2026-06-08 21:16:27 | INFO     | bot.runtime | Command: /add from ✨️Siya..
+2026-06-08 21:16:27 | INFO     | commands.audit | RECV user=✨️Siya.. cmd=/add invoked=/add args=['andanga', 'lena'] fp=277e82d2
+2026-06-08 21:16:27 | INFO     | player.local_library | No local song for query: 'andanga lena'
+2026-06-08 21:16:27 | INFO     | player.youtube_service | Extracting stream: andanga lena
+2026-06-08 21:16:29 | INFO     | player.autoplay_manager | Autoplay paused — user queue active
+2026-06-08 21:16:29 | INFO     | player.stream_queue | User queued: Godavari Songs | Andamga Lenaa Song | Kamalini | Singer Suneetha | TeluguOne (#1)
+2026-06-08 21:16:29 | INFO     | commands.audit | user=✨️Siya.. cmd=/add invoked=/add args=[andanga lena] status=SUCCESS ok=True ms=2223 msg='Added: Godavari Songs | Andamga Lenaa Song | Kamalini | Singer Suneetha | Telugu'
+2026-06-08 21:16:32 | INFO     | wakie.chat | Message typed
+2026-06-08 21:16:36 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:16:36 | INFO     | wakie.chat_actions | Reply sent to /add andanga lena
+2026-06-08 21:16:38 | INFO     | wakie.message_filter | Ignored command echo: /add andanga lena
+2026-06-08 21:16:40 | INFO     | wakie.message_filter | Ignored command echo: /add Yamuna thatilo
+2026-06-08 21:17:12 | INFO     | wakie.message_filter | Ignored command echo: /add andanga lena
+2026-06-08 21:17:15 | INFO     | wakie.message_filter | Ignored command echo: /add andanga lena
+2026-06-08 21:18:08 | ERROR    | player.autoplay_manager | Autoplay extract failed for https://www.youtube.com/playlist?list=PL4sNEU2Mgm6bNnbM-qKPmTwwDromFqpMQ: 
+2026-06-08 21:18:09 | INFO     | wakie.chat | Message typed
+2026-06-08 21:18:13 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:18:13 | INFO     | wakie.chat | Message sent
+2026-06-08 21:18:13 | INFO     | player.audio_player | Streaming: Godavari Songs | Andamga Lenaa Song | Kamalini | Singer Suneetha | TeluguOne
+2026-06-08 21:18:13 | INFO     | player.playback_engine | Now playing: Godavari Songs | Andamga Lenaa Song | Kamalini | Singer Suneetha | TeluguOne (attempt 1)
+2026-06-08 21:18:14 | INFO     | wakie.chat | Message typed
+2026-06-08 21:18:16 | INFO     | wakie.message_filter | Ignored self user Anuraag: Like
+2026-06-08 21:18:18 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:18:18 | INFO     | wakie.chat | Message sent
+2026-06-08 21:18:18 | INFO     | wakie.message_filter | Ignored outbound echo: Godavari Songs | Andamga Lenaa Song | Kamalini | Singer Sune
+2026-06-08 21:18:44 | INFO     | wakie.message_filter | Ignored self user Anuraag is back: Like
+2026-06-08 21:18:53 | INFO     | player.audio_player | AudioPlayer shut down
+2026-06-08 21:18:53 | INFO     | wakie.reader | MessageReader disconnected
+2026-06-08 21:18:53 | INFO     | wakie.device_session | Device session closed
+2026-06-08 21:18:53 | INFO     | bot.runtime | Bot stopped
+2026-06-08 21:19:16 | INFO     | wakie.message_filter | Bot username filter: Anuraag
+2026-06-08 21:19:16 | INFO     | bot.runtime | === Wakie Music Bot starting ===
+2026-06-08 21:19:16 | INFO     | player.autoplay_manager | Autoplay playlist loaded: 2 track(s)
+2026-06-08 21:19:16 | INFO     | wakie.device_session | Connecting uiautomator2 → emulator-5554
+2026-06-08 21:19:17 | INFO     | wakie.device_session | Device ready: 900x1600 serial=emulator-5554
+2026-06-08 21:19:17 | INFO     | wakie.reader | MessageReader using shared device session
+2026-06-08 21:19:17 | INFO     | player.audio_player | VLC initialized (streaming enabled)
+2026-06-08 21:19:17 | INFO     | bot.runtime | Poll loop started (interval=1.5s)
+2026-06-08 21:19:17 | INFO     | player.playback_engine | Playback engine started
+2026-06-08 21:19:17 | INFO     | player.youtube_service | Extracting stream: https://www.youtube.com/playlist?list=PL5HDCGtq1uZtGtAP1eTx34IATGVfHMelL
+2026-06-08 21:19:17 | INFO     | wakie.message_filter | Ignored self user Anuraag is back: R........ м..м........ ..
+2026-06-08 21:19:38 | INFO     | wakie.detector | Command from ✨️Siya..: /add andanga lena
+2026-06-08 21:19:38 | INFO     | bot.runtime | Command: /add from ✨️Siya..
+2026-06-08 21:19:38 | INFO     | commands.audit | RECV user=✨️Siya.. cmd=/add invoked=/add args=['andanga', 'lena'] fp=de775626
+2026-06-08 21:19:38 | INFO     | player.local_library | No local song for query: 'andanga lena'
+2026-06-08 21:19:38 | INFO     | player.youtube_service | Extracting stream: andanga lena
+2026-06-08 21:19:40 | INFO     | player.autoplay_manager | Autoplay paused — user queue active
+2026-06-08 21:19:40 | INFO     | player.stream_queue | User queued: Godavari Songs | Andamga Lenaa Song | Kamalini | Singer Suneetha | TeluguOne (#1)
+2026-06-08 21:19:40 | INFO     | commands.audit | user=✨️Siya.. cmd=/add invoked=/add args=[andanga lena] status=SUCCESS ok=True ms=2305 msg='Added: Godavari Songs | Andamga Lenaa Song | Kamalini | Singer Suneetha | Telugu'
+2026-06-08 21:19:43 | INFO     | wakie.chat | Message typed
+2026-06-08 21:19:46 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:19:47 | INFO     | wakie.chat_actions | Reply sent to /add andanga lena
+2026-06-08 21:19:49 | INFO     | wakie.message_filter | Ignored command echo: /add andanga lena
+2026-06-08 21:20:13 | INFO     | wakie.message_filter | Ignored self user Anuraag: Like
+2026-06-08 21:20:45 | INFO     | wakie.message_filter | Ignored command echo: /add andanga lena
+2026-06-08 21:20:45 | INFO     | wakie.detector | Command from R........ м..м........ ..: /add swathilo muthyamantha
+2026-06-08 21:20:45 | INFO     | bot.runtime | Command: /add from R........ м..м........ ..
+2026-06-08 21:20:45 | INFO     | commands.audit | RECV user=R........ м..м........ .. cmd=/add invoked=/add args=['swathilo', 'muthyamantha'] fp=be02fc82
+2026-06-08 21:20:45 | INFO     | player.local_library | No local song for query: 'swathilo muthyamantha'
+2026-06-08 21:20:45 | INFO     | player.youtube_service | Extracting stream: swathilo muthyamantha
+2026-06-08 21:20:47 | INFO     | player.stream_queue | User queued: Swathilo Muthyamantha 4K Video Song | Bangaru Bullodu | Balakrishna, Raveena Tandon | Raj-Koti (#2)
+2026-06-08 21:20:47 | INFO     | commands.audit | user=R........ м..м........ .. cmd=/add invoked=/add args=[swathilo muthyamantha] status=SUCCESS ok=True ms=2529 msg='Added: Swathilo Muthyamantha 4K Video Song | Bangaru Bullodu | Balakrishna, Rave'
+2026-06-08 21:20:50 | INFO     | wakie.chat | Message typed
+2026-06-08 21:20:53 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:20:54 | INFO     | wakie.chat_actions | Reply sent to /add swathilo muthyamantha
+2026-06-08 21:20:56 | INFO     | wakie.message_filter | Ignored command echo: /add swathilo muthyamantha
+2026-06-08 21:20:56 | INFO     | wakie.message_filter | Ignored outbound echo: Swathilo Muthyamantha 4K Video Song | Bangaru Bullodu | Bala
+2026-06-08 21:21:17 | ERROR    | player.autoplay_manager | Autoplay extract failed for https://www.youtube.com/playlist?list=PL5HDCGtq1uZtGtAP1eTx34IATGVfHMelL: 
+2026-06-08 21:21:18 | INFO     | wakie.chat | Message typed
+2026-06-08 21:21:18 | INFO     | wakie.message_filter | Ignored self user Anuraag: R........ м..м........ ..
+2026-06-08 21:21:20 | INFO     | wakie.detector | Command from ..............: /add o manasa
+2026-06-08 21:21:20 | INFO     | bot.runtime | Command: /add from ..............
+2026-06-08 21:21:20 | INFO     | commands.audit | RECV user=.............. cmd=/add invoked=/add args=['o', 'manasa'] fp=3588f96f
+2026-06-08 21:21:20 | INFO     | player.local_library | No local song for query: 'o manasa'
+2026-06-08 21:21:20 | INFO     | player.youtube_service | Extracting stream: o manasa
+2026-06-08 21:21:21 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:21:22 | INFO     | wakie.chat | Message sent
+2026-06-08 21:21:22 | INFO     | player.audio_player | Streaming: Godavari Songs | Andamga Lenaa Song | Kamalini | Singer Suneetha | TeluguOne
+2026-06-08 21:21:22 | INFO     | player.playback_engine | Now playing: Godavari Songs | Andamga Lenaa Song | Kamalini | Singer Suneetha | TeluguOne (attempt 1)
+2026-06-08 21:21:22 | INFO     | player.stream_queue | User queued: O Manasa Full Video Song | Oka Manasu Movie | Naga Shaurya | Niharika Konidela | Madhura Audio (#2)
+2026-06-08 21:21:22 | INFO     | commands.audit | user=.............. cmd=/add invoked=/add args=[o manasa] status=SUCCESS ok=True ms=2326 msg='Added: O Manasa Full Video Song | Oka Manasu Movie | Naga Shaurya | Niharika Kon'
+2026-06-08 21:21:23 | INFO     | wakie.chat | Message typed
+2026-06-08 21:21:25 | INFO     | wakie.chat | Message typed
+2026-06-08 21:21:27 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:21:27 | INFO     | wakie.chat | Message sent
+2026-06-08 21:21:30 | WARNING  | wakie.chat_actions | Reply typed but send failed for '/add o manasa'
+2026-06-08 21:21:30 | WARNING  | wakie.sender | Reply failed — falling back to plain send
+2026-06-08 21:21:30 | INFO     | wakie.chat | Message typed
+2026-06-08 21:21:34 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:21:34 | INFO     | wakie.chat | Message sent
+2026-06-08 21:21:36 | INFO     | wakie.message_filter | Ignored command echo: /add o manasa
+2026-06-08 21:21:36 | INFO     | wakie.message_filter | Ignored outbound echo: O Manasa Full Video Song | Oka Manasu Movie | Naga Shaurya |
+2026-06-08 21:21:36 | INFO     | wakie.message_filter | Ignored self user Anuraag: Anuraag
+2026-06-08 21:21:44 | INFO     | wakie.detector | Command from ✨️Siya..: /q
+2026-06-08 21:21:44 | INFO     | wakie.detector | Command from ..............: /remove 2
+2026-06-08 21:21:44 | INFO     | bot.runtime | Command: /q from ✨️Siya..
+2026-06-08 21:21:44 | INFO     | commands.audit | RECV user=✨️Siya.. cmd=/q invoked=/q args=[] fp=ee4706a2
+2026-06-08 21:21:44 | INFO     | commands.audit | user=✨️Siya.. cmd=/q invoked=/q args=[] status=SUCCESS ok=True ms=0 msg='▶ Now: Godavari Songs | Andamga Lenaa Song | Kamalini | Singe…\n\nUp next (2):\n1. '
+2026-06-08 21:21:47 | INFO     | wakie.chat | Message typed
+2026-06-08 21:21:50 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:21:51 | INFO     | wakie.chat_actions | Reply sent to /q
+2026-06-08 21:21:51 | INFO     | bot.runtime | Command: /remove from ..............
+2026-06-08 21:21:51 | INFO     | commands.audit | RECV user=.............. cmd=/remove invoked=/remove args=['2'] fp=3e9d3632
+2026-06-08 21:21:51 | INFO     | commands.audit | user=.............. cmd=/remove invoked=/remove args=[2] status=SUCCESS ok=True ms=0 msg='Removed: O Manasa Full Video Song | Oka Manasu Movie | Naga Shaurya | Niharika K'
+2026-06-08 21:21:53 | INFO     | wakie.chat | Message typed
+2026-06-08 21:21:57 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:21:57 | INFO     | wakie.chat_actions | Reply sent to /remove 2
+2026-06-08 21:21:59 | INFO     | wakie.message_filter | Ignored command echo: /q
+2026-06-08 21:21:59 | INFO     | wakie.message_filter | Ignored self user Anuraag: ▶ Now: Godavari Songs | Andamga Lenaa Song | Kamalini | Sing
+2026-06-08 21:21:59 | INFO     | wakie.message_filter | Ignored command echo: /remove 2
+2026-06-08 21:21:59 | INFO     | wakie.message_filter | Ignored outbound echo: O Manasa Full Video Song | Oka Manasu Movie | Naga Shaurya |
+2026-06-08 21:22:20 | INFO     | wakie.detector | Command from ..............: /add emantave o manasa
+2026-06-08 21:22:20 | INFO     | bot.runtime | Command: /add from ..............
+2026-06-08 21:22:20 | INFO     | commands.audit | RECV user=.............. cmd=/add invoked=/add args=['emantave', 'o', 'manasa'] fp=e2e4c0c2
+2026-06-08 21:22:20 | INFO     | player.local_library | No local song for query: 'emantave o manasa'
+2026-06-08 21:22:20 | INFO     | player.youtube_service | Extracting stream: emantave o manasa
+2026-06-08 21:22:22 | INFO     | player.stream_queue | User queued: Emantave O Manasa Song   Ninne Istapaddanu Movie ¦¦ Tarun ¦¦ Anitha ¦¦ Sridevi ¦¦ R P Patnaik (#2)
+2026-06-08 21:22:22 | INFO     | commands.audit | user=.............. cmd=/add invoked=/add args=[emantave o manasa] status=SUCCESS ok=True ms=2371 msg='Added: Emantave O Manasa Song   Ninne Istapaddanu Movie ¦¦ Tarun ¦¦ Anitha ¦¦ Sr'
+2026-06-08 21:22:25 | INFO     | wakie.chat | Message typed
+2026-06-08 21:22:28 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:22:29 | INFO     | wakie.chat_actions | Reply sent to /add emantave o manasa
+2026-06-08 21:22:31 | INFO     | wakie.message_filter | Ignored bot text: ▶ Now: Godavari Songs | Andamga Lenaa Song | Kamalini | Sing
+2026-06-08 21:22:31 | INFO     | wakie.message_filter | Ignored command echo: /add emantave o manasa
+2026-06-08 21:22:31 | INFO     | wakie.message_filter | Ignored outbound echo: Emantave O Manasa Song   Ninne Istapaddanu Movie ¦¦ Tarun ¦¦
+2026-06-08 21:22:34 | INFO     | wakie.message_filter | Ignored command echo: /q
+2026-06-08 21:24:12 | INFO     | wakie.message_filter | Ignored command echo: /q
+2026-06-08 21:25:32 | INFO     | wakie.detector | Command from ✨️Siya..: /help
+2026-06-08 21:25:32 | INFO     | bot.runtime | Command: /help from ✨️Siya..
+2026-06-08 21:25:32 | INFO     | commands.audit | RECV user=✨️Siya.. cmd=/help invoked=/help args=[] fp=bfd7d82b
+2026-06-08 21:25:32 | INFO     | commands.audit | user=✨️Siya.. cmd=/help invoked=/help args=[] status=SUCCESS ok=True ms=0 msg='Music bot — commands\n\nPublic (everyone):\n  /add <song|url> — Add song to queue.\n'
+2026-06-08 21:25:35 | INFO     | wakie.chat | Message typed
+2026-06-08 21:25:39 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:25:39 | INFO     | wakie.chat_actions | Reply sent to /help
+2026-06-08 21:25:41 | INFO     | wakie.message_filter | Ignored bot text: Music bot — commands
+
+Public (everyone):
+/add <song|url> — A
+2026-06-08 21:25:43 | INFO     | wakie.message_filter | Ignored outbound echo: /q
+2026-06-08 21:25:47 | INFO     | player.playback_engine | Track finished: Godavari Songs | Andamga Lenaa Song | Kamalini | Singer Suneetha | TeluguOne
+2026-06-08 21:25:47 | INFO     | player.audio_player | Streaming: Swathilo Muthyamantha 4K Video Song | Bangaru Bullodu | Balakrishna, Raveena Tandon | Raj-Koti
+2026-06-08 21:25:47 | INFO     | player.playback_engine | Now playing: Swathilo Muthyamantha 4K Video Song | Bangaru Bullodu | Balakrishna, Raveena Tandon | Raj-Koti (attempt 1)
+2026-06-08 21:25:48 | INFO     | wakie.chat | Message typed
+2026-06-08 21:25:52 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:25:52 | INFO     | wakie.message_filter | Ignored outbound echo: Swathilo Muthyamantha 4K Video Song | Bangaru Bullodu | Bala
+2026-06-08 21:25:52 | INFO     | wakie.chat | Message sent
+2026-06-08 21:25:58 | INFO     | wakie.detector | Command from ..............: /queue
+2026-06-08 21:25:58 | INFO     | bot.runtime | Command: /q from ..............
+2026-06-08 21:25:58 | INFO     | commands.audit | RECV user=.............. cmd=/q invoked=/queue args=[] fp=c85df66d
+2026-06-08 21:25:58 | INFO     | commands.audit | user=.............. cmd=/q invoked=/queue args=[] status=SUCCESS ok=True ms=0 msg='▶ Now: Swathilo Muthyamantha 4K Video Song | Bangaru Bullodu …\n\nUp next (1):\n1. '
+2026-06-08 21:26:01 | INFO     | wakie.chat | Message typed
+2026-06-08 21:26:04 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:26:04 | INFO     | wakie.chat_actions | Reply sent to /queue
+2026-06-08 21:26:06 | INFO     | wakie.message_filter | Ignored bot text: ▶ Now: Swathilo Muthyamantha 4K Video Song | Bangaru Bullodu
+2026-06-08 21:26:36 | INFO     | wakie.message_filter | Ignored outbound echo: /q
+2026-06-08 21:26:38 | INFO     | wakie.message_filter | Ignored self user Anuraag: ▶ Now: Swathilo Muthyamantha 4K Video Song | Bangaru Bullodu
+2026-06-08 21:26:38 | INFO     | wakie.message_filter | Ignored outbound echo: /skip
+2026-06-08 21:27:11 | INFO     | wakie.message_filter | Ignored outbound echo: /skip
+2026-06-08 21:27:33 | INFO     | player.audio_player | AudioPlayer shut down
+2026-06-08 21:27:33 | INFO     | wakie.reader | MessageReader disconnected
+2026-06-08 21:27:33 | INFO     | wakie.device_session | Device session closed
+2026-06-08 21:27:33 | INFO     | bot.runtime | Bot stopped
+2026-06-08 21:27:36 | INFO     | wakie.message_filter | Bot username filter: Anuraag
+2026-06-08 21:27:36 | INFO     | bot.runtime | === Wakie Music Bot starting ===
+2026-06-08 21:27:36 | INFO     | player.autoplay_manager | Autoplay playlist loaded: 2 track(s)
+2026-06-08 21:27:36 | INFO     | wakie.device_session | Connecting uiautomator2 → emulator-5554
+2026-06-08 21:27:37 | INFO     | wakie.device_session | Device ready: 900x1600 serial=emulator-5554
+2026-06-08 21:27:37 | INFO     | wakie.reader | MessageReader using shared device session
+2026-06-08 21:27:37 | INFO     | player.audio_player | VLC initialized (streaming enabled)
+2026-06-08 21:27:37 | INFO     | bot.runtime | Poll loop started (interval=1.5s)
+2026-06-08 21:27:37 | INFO     | player.playback_engine | Playback engine started
+2026-06-08 21:27:37 | INFO     | player.youtube_service | Extracting stream: https://www.youtube.com/playlist?list=PL5HDCGtq1uZtGtAP1eTx34IATGVfHMelL
+2026-06-08 21:27:37 | INFO     | wakie.message_filter | Ignored bot text: ▶ Now: Swathilo Muthyamantha 4K Video Song | Bangaru Bullodu
+2026-06-08 21:27:37 | INFO     | wakie.detector | Command from ..............: /queue
+2026-06-08 21:27:37 | INFO     | wakie.detector | Command from ✨️Siya..: /q
+2026-06-08 21:27:37 | INFO     | wakie.detector | Command from ..............: /skip
+2026-06-08 21:27:37 | INFO     | wakie.detector | Duplicate command ignored: /skip
+2026-06-08 21:27:37 | INFO     | bot.runtime | Command: /q from ..............
+2026-06-08 21:27:37 | INFO     | commands.audit | RECV user=.............. cmd=/q invoked=/queue args=[] fp=09753090
+2026-06-08 21:27:37 | INFO     | commands.audit | user=.............. cmd=/q invoked=/queue args=[] status=SUCCESS ok=True ms=0 msg='Queue is empty.'
+2026-06-08 21:27:40 | INFO     | wakie.chat | Message typed
+2026-06-08 21:27:43 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:27:44 | INFO     | wakie.chat_actions | Reply sent to /queue
+2026-06-08 21:27:44 | INFO     | bot.runtime | Command: /q from ✨️Siya..
+2026-06-08 21:27:44 | INFO     | commands.audit | RECV user=✨️Siya.. cmd=/q invoked=/q args=[] fp=695aa451
+2026-06-08 21:27:44 | INFO     | commands.audit | user=✨️Siya.. cmd=/q invoked=/q args=[] status=SUCCESS ok=True ms=0 msg='Queue is empty.'
+2026-06-08 21:27:44 | WARNING  | wakie.chat_actions | Could not open reply menu for message '/q'
+2026-06-08 21:27:44 | WARNING  | wakie.sender | Reply failed — falling back to plain send
+2026-06-08 21:27:45 | INFO     | wakie.chat | Message typed
+2026-06-08 21:27:49 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:27:49 | INFO     | wakie.chat | Message sent
+2026-06-08 21:27:49 | INFO     | bot.runtime | Command: /skip from ..............
+2026-06-08 21:27:49 | INFO     | commands.audit | RECV user=.............. cmd=/skip invoked=/skip args=[] fp=ac1658d4
+2026-06-08 21:27:49 | WARNING  | commands.audit | user=.............. cmd=/skip invoked=/skip args=[] status=ERROR ok=False ms=0 msg='Nothing playing to skip.'
+2026-06-08 21:27:50 | WARNING  | wakie.chat_actions | Could not open reply menu for message '/skip'
+2026-06-08 21:27:50 | WARNING  | wakie.sender | Reply failed — falling back to plain send
+2026-06-08 21:27:51 | INFO     | wakie.chat | Message typed
+2026-06-08 21:27:54 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:27:55 | INFO     | wakie.chat | Message sent
+2026-06-08 21:27:56 | INFO     | wakie.message_filter | Ignored reply preview: /skip
+2026-06-08 21:27:56 | INFO     | wakie.message_filter | Ignored self user Anuraag: Queue is empty.
+2026-06-08 21:27:56 | INFO     | wakie.message_filter | Ignored self user Anuraag: Queue is empty.
+2026-06-08 21:27:56 | INFO     | wakie.message_filter | Ignored self user Anuraag: Nothing playing to skip.
+2026-06-08 21:27:56 | INFO     | wakie.detector | Duplicate command ignored: /queue
+2026-06-08 21:27:56 | INFO     | wakie.detector | Command from ✨️Siya..: /add emanate o manasa
+2026-06-08 21:27:56 | INFO     | bot.runtime | Command: /add from ✨️Siya..
+2026-06-08 21:27:56 | INFO     | commands.audit | RECV user=✨️Siya.. cmd=/add invoked=/add args=['emanate', 'o', 'manasa'] fp=2490c2a8
+2026-06-08 21:27:56 | INFO     | player.local_library | No local song for query: 'emanate o manasa'
+2026-06-08 21:27:56 | INFO     | player.youtube_service | Extracting stream: emanate o manasa
+2026-06-08 21:27:59 | INFO     | player.autoplay_manager | Autoplay paused — user queue active
+2026-06-08 21:27:59 | INFO     | player.stream_queue | User queued: Emantave Full Video Song - Kurradu Video Songs - Varun Sandesh, Neha Sarma (#1)
+2026-06-08 21:27:59 | INFO     | commands.audit | user=✨️Siya.. cmd=/add invoked=/add args=[emanate o manasa] status=SUCCESS ok=True ms=2467 msg='Added: Emantave Full Video Song - Kurradu Video Songs - Varun Sandesh, Neha Sarm'
+2026-06-08 21:28:02 | INFO     | wakie.chat | Message typed
+2026-06-08 21:28:05 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:28:06 | INFO     | wakie.chat_actions | Reply sent to /add emanate o manasa
+2026-06-08 21:28:08 | INFO     | wakie.message_filter | Ignored self user Anuraag: Like
+2026-06-08 21:28:08 | INFO     | wakie.detector | Duplicate command ignored: /add emanate o manasa
+2026-06-08 21:29:37 | ERROR    | player.autoplay_manager | Autoplay extract failed for https://www.youtube.com/playlist?list=PL5HDCGtq1uZtGtAP1eTx34IATGVfHMelL: 
+2026-06-08 21:29:38 | INFO     | wakie.chat | Message typed
+2026-06-08 21:29:41 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:29:42 | INFO     | wakie.chat | Message sent
+2026-06-08 21:29:42 | INFO     | player.audio_player | Streaming: Emantave Full Video Song - Kurradu Video Songs - Varun Sandesh, Neha Sarma
+2026-06-08 21:29:42 | INFO     | player.playback_engine | Now playing: Emantave Full Video Song - Kurradu Video Songs - Varun Sandesh, Neha Sarma (attempt 1)
+2026-06-08 21:29:43 | INFO     | wakie.detector | Command from unknown: /add emanate o manasa
+2026-06-08 21:29:43 | INFO     | bot.runtime | Command: /add from unknown
+2026-06-08 21:29:43 | INFO     | commands.audit | RECV user=unknown cmd=/add invoked=/add args=['emanate', 'o', 'manasa'] fp=2cbf0718
+2026-06-08 21:29:43 | INFO     | player.local_library | No local song for query: 'emanate o manasa'
+2026-06-08 21:29:43 | INFO     | player.youtube_service | Extracting stream: emanate o manasa
+2026-06-08 21:29:43 | INFO     | wakie.chat | Message typed
+2026-06-08 21:29:45 | INFO     | player.stream_queue | User queued: EMANATE https://www.youtube.com/@TheFifthWorld22   #TheFifthWorld, #TheFifthWorldChannel (#1)
+2026-06-08 21:29:45 | INFO     | commands.audit | user=unknown cmd=/add invoked=/add args=[emanate o manasa] status=SUCCESS ok=True ms=2269 msg='Added: EMANATE https://www.youtube.com/@TheFifthWorld22   #TheFifthWorld, #TheFi'
+2026-06-08 21:29:45 | WARNING  | wakie.chat_actions | Could not open reply menu for message '/add emanate o manasa'
+2026-06-08 21:29:45 | WARNING  | wakie.sender | Reply failed — falling back to plain send
+2026-06-08 21:29:46 | INFO     | wakie.chat | Retrying send (2/3)…
+2026-06-08 21:29:47 | INFO     | wakie.chat | Message typed
+2026-06-08 21:29:48 | INFO     | wakie.chat | Message typed
+2026-06-08 21:29:50 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:29:51 | INFO     | wakie.chat | Message sent
+2026-06-08 21:29:52 | INFO     | wakie.chat | Retrying send (3/3)…
+2026-06-08 21:29:54 | INFO     | wakie.chat | Message typed
+2026-06-08 21:29:57 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:29:58 | INFO     | wakie.chat | Message sent
+2026-06-08 21:30:17 | INFO     | wakie.detector | Command from ..............: /add emantave o manasa
+2026-06-08 21:30:17 | INFO     | bot.runtime | Command: /add from ..............
+2026-06-08 21:30:17 | INFO     | commands.audit | RECV user=.............. cmd=/add invoked=/add args=['emantave', 'o', 'manasa'] fp=ffeb16a9
+2026-06-08 21:30:17 | INFO     | player.local_library | No local song for query: 'emantave o manasa'
+2026-06-08 21:30:17 | INFO     | player.youtube_service | Extracting stream: emantave o manasa
+2026-06-08 21:30:20 | INFO     | player.stream_queue | User queued: Emantave O Manasa Song   Ninne Istapaddanu Movie ¦¦ Tarun ¦¦ Anitha ¦¦ Sridevi ¦¦ R P Patnaik (#2)
+2026-06-08 21:30:20 | INFO     | commands.audit | user=.............. cmd=/add invoked=/add args=[emantave o manasa] status=SUCCESS ok=True ms=2522 msg='Added: Emantave O Manasa Song   Ninne Istapaddanu Movie ¦¦ Tarun ¦¦ Anitha ¦¦ Sr'
+2026-06-08 21:30:22 | INFO     | wakie.chat | Message typed
+2026-06-08 21:30:26 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:30:26 | INFO     | wakie.chat_actions | Reply sent to /add emantave o manasa
+2026-06-08 21:30:28 | INFO     | wakie.detector | Duplicate command ignored: /add emantave o manasa
+2026-06-08 21:33:14 | INFO     | player.playback_engine | Track finished: Emantave Full Video Song - Kurradu Video Songs - Varun Sandesh, Neha Sarma
+2026-06-08 21:33:14 | INFO     | player.audio_player | Streaming: EMANATE https://www.youtube.com/@TheFifthWorld22   #TheFifthWorld, #TheFifthWorldChannel
+2026-06-08 21:33:14 | INFO     | player.playback_engine | Now playing: EMANATE https://www.youtube.com/@TheFifthWorld22   #TheFifthWorld, #TheFifthWorldChannel (attempt 1)
+2026-06-08 21:33:15 | INFO     | wakie.chat | Message typed
+2026-06-08 21:33:19 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:33:19 | INFO     | wakie.chat | Message sent
+2026-06-08 21:33:32 | INFO     | wakie.detector | Command from ✨️Siya..: /skip
+2026-06-08 21:33:32 | INFO     | bot.runtime | Command: /skip from ✨️Siya..
+2026-06-08 21:33:32 | INFO     | commands.audit | RECV user=✨️Siya.. cmd=/skip invoked=/skip args=[] fp=58ee1080
+2026-06-08 21:33:32 | INFO     | commands.audit | user=✨️Siya.. cmd=/skip invoked=/skip args=[] status=SUCCESS ok=True ms=8 msg='Skipped: EMANATE https://www.youtube.com/@TheFifthWorld22   #TheFifthWorld, #The'
+2026-06-08 21:33:32 | INFO     | player.audio_player | Streaming: Emantave O Manasa Song   Ninne Istapaddanu Movie ¦¦ Tarun ¦¦ Anitha ¦¦ Sridevi ¦¦ R P Patnaik
+2026-06-08 21:33:32 | INFO     | player.playback_engine | Now playing: Emantave O Manasa Song   Ninne Istapaddanu Movie ¦¦ Tarun ¦¦ Anitha ¦¦ Sridevi ¦¦ R P Patnaik (attempt 1)
+2026-06-08 21:33:33 | INFO     | wakie.chat | Message typed
+2026-06-08 21:33:37 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:33:37 | INFO     | wakie.chat | Message sent
+2026-06-08 21:33:41 | WARNING  | wakie.chat_actions | Could not open reply menu for message '/skip'
+2026-06-08 21:33:41 | WARNING  | wakie.sender | Reply failed — falling back to plain send
+2026-06-08 21:33:42 | INFO     | wakie.chat | Message typed
+2026-06-08 21:33:45 | INFO     | wakie.chat | Send button clicked (resource_id: com.wakie.android:id/send)
+2026-06-08 21:33:45 | INFO     | wakie.chat | Message sent
+2026-06-08 21:33:56 | INFO     | wakie.detector | Command from ..............: /volume
+2026-06-08 21:33:56 | INFO     | bot.runtime | Command: /volume from ..............
+2026-06-08 21:33:56 | INFO     | commands.audit | RECV user=.............. cmd=/volume invoked=/volume args=[] fp=ee9402d3
+2026-06-08 21:33:56 | INFO     | commands.audit | user=.............. cmd=/volume invoked=/volume args=[] status=SUCCESS ok=True ms=0 msg='Volume: 80%'
